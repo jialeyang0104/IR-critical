@@ -1,46 +1,46 @@
-# Metabolic indices and ICU mortality: patient-level competing-risk analysis
+# IR-critical
 
-This package contains the code, aggregate results and figure sources for the current manuscript revision. The unit is one patient per database: select the earliest recorded ICU stay from the complete ICU table **before** applying eligibility criteria. The resulting common-index cohorts contain 3,056 MIMIC-IV, 1,133 MIMIC-III and 1,556 NWICU patients. MIMIC-III deidentified ages ≥300 are coded as 90 years (65 affected final-cohort patients).
+研究 SHR、TyG、AIP 与危重患者死亡结局的关联及预测表现。本目录是当前项目唯一入口；代码、汇总结果、图表和本地投稿材料采用英文路径。
 
-In-hospital and first-ICU mortality use Fine–Gray models with alive departure as the competing event; MIMIC 28-day mortality uses Cox regression. NWICU recorded 28-day deaths are exploratory because ascertainment is limited to Northwestern Medicine hospital data. All five formal covariates are observed. Compatibility filenames retain M5/M20; m=0 and maxit=0 in result columns identify the actual complete-data analysis.
+## 现在先看
 
-## Contents and evidence
+- 本地稿件：[Manuscript](deliverables/01_Manuscript_Clean.docx)、[Supplement](deliverables/03_Supplementary_Materials.docx)、[Reviewer responses](deliverables/04_Response_to_Reviewers.docx)。Word 文件保留 Zotero 动态引用，仅在本地提供。
+- [图表](deliverables/figures/)、[结果与表图映射](results/analysis/10_CR_table_result_figure_mapping.csv)。
+- [运行顺序](docs/RUN_ORDER.md)、[受限输入字典](docs/INPUT_DICTIONARY.md)。
 
-|Path|Purpose|
-|---|---|
-|`08_CR_竞争风险修订/02_代码/`|Current statistical analysis and figure-generation code|
-|`08_CR_竞争风险修订/03_汇总结果/`|Aggregate estimates, flows, diagnostics, bootstrap contrasts, table-source mapping|
-|`08_CR_竞争风险修订/01_最终投稿文件/figures/`|16 current figure groups (6 main, 10 supplementary) (PDF/SVG/PNG), source CSVs, export manifest|
-|`00_总说明与运行顺序/`|Shared preparation, descriptive, timing and prediction functions|
-|`02_PA_主分析_AdmissionOrigin_M5P/`|Current PostgreSQL extraction scripts and adapted NWICU SOFA construction|
-|`03_PSA_主分析补充分析/01_MIMICIV/03_汇总结果/`|Current ROC/DeLong, calibration, DCA and prediction outputs|
-|`REPRODUCIBILITY/`|Executed software versions, input hashes and verified citation metadata|
+|路径|用途|主要输入与输出|使用入口|
+|---|---|---|---|
+|`src/extraction/`|三库 SQL 提取及 NWICU 衍生表|授权数据库 → 受限 CSV|各队列 SQL；运行顺序见 docs|
+|`src/analysis/`|正式分析、敏感性分析及绘图入口|受限输入 → 汇总结果 → 图|01–14 编号入口|
+|`src/shared/`|统计及预测共用函数|由分析入口调用|04_prediction.R 为预测入口|
+|`src/figures/`|共用图形样式|汇总结果 → 图形对象|由 12_build_figures.py 调用|
+|`src/validation/`|公开文件与结果一致性检查|Git 文件集及汇总结果 → 检查结果|01_validate_public.py|
+|`src/reporting/`|本地文稿、回复和动态引用更新|作者稿、汇总结果 → DOCX|本地保留，不上传|
+|`data/restricted/`|授权患者级输入及模型对象|原始提取与派生数据|本地保留，不上传|
+|`results/analysis/`|当前回归及统计汇总|模型、风险集、流程、敏感性结果|表图映射 CSV|
+|`results/prediction/`|预测性能汇总|ROC、DeLong、交叉验证等|mimiciv 子目录|
+|`deliverables/`|当前投稿材料及图形导出|DOCX、PNG/PDF/SVG 和图源 CSV|正文及 figures|
+|`reports/study/`|中文方法、结果和解读|当前正式结果 → 中文说明|01_methods_zh.md|
+|`reports/reproducibility/`|版本、迁移及公开文件清单|软件记录、原始路径映射、校验文件|PATH_MIGRATION.csv|
+|`archive/`|本地历史资料与原工作区|两个可解压 ZIP，保留原始资料|不上传|
+|`reports/internal/`|内部审计及私人引用映射|执行证据、原始审稿材料|本地保留，不上传|
 
-`INPUT_DICTIONARY.md` defines restricted inputs and database prerequisites. No patient-level CSV, model object or credential is distributed. Code and result filenames are retained to preserve executable relative paths; this README and the input dictionary are the English navigation authorities.
+## 当前状态与定义
 
-## Run
+三库共同指标队列分别为 3,056、1,133、1,556 人。院内及 ICU 死亡采用 Fine–Gray；MIMIC 28 天死亡采用 Cox。正式模型协变量完整，不执行 MICE。旧结果文件中的 M5/M20 为兼容标签，实际 `m=0, maxit=0`；原结果文件名保留以确保引用可追溯，执行入口已按运行顺序重排。当前为 6 组主图、10 组补充图和 15 张补充表。
 
-Use R 4.5.3 with cmprsk 2.2-12, survival 3.8-12, Hmisc 5.3-0, pROC 1.19.1 and mice 3.19.0 (shared function dependency; not used for formal covariate imputation). Python requires pandas, numpy, matplotlib, Pillow, lxml and python-docx. Install a PostgreSQL client. Set `IR_REVISION_ROOT` to the extracted package root and `IR_CR_STAGE` to an empty temporary output directory. `IR_PSQL` optionally selects the psql executable. Set connection names/ports in the explicitly declared database specifications when reproducing on another host.
+本次仅整理路径与入口，复用已完成的统计结果和作者稿，不重新运行患者级分析。新增路径已通过脚本语法、汇总矩阵及实际绘图检查。
 
-1. Obtain credentialed source data under the respective agreements and prepare the raw eligible extracts using the cohort SQL. Follow `RUN_ORDER.md` for exact extraction commands and the ordered NWICU derived-table build. MIMIC derived tables follow the official MIT-LCP concept definitions. NWICU prerequisite construction and the adapted SOFA SQL are included. These prerequisite scripts replace named derived objects; execute them in an authorized working database.
-2. Run Python `08_CR_竞争风险修订/02_代码/00a_CR_PREPARE_PATIENT_INPUTS.py` and `00b_CR_DURATION_AUDIT.py`. These query complete source tables read-only, rank patients before eligibility, enrich metadata, and write restricted derivative inputs plus aggregate audits. The original raw extracts are preserved.
-3. Run R scripts `00_CR_EXPORT_DESCRIPTIVES.R`, `02_CR_RUN_ANALYSES.R`, `03_CR_RUN_SENSITIVITIES.R`, `03b_CR_RUN_SUPPORTING_MODELS.R`, `03c_CR_EVENT_TIME_AUDIT.R` and `03d_CR_REVIEW_ANALYSES.R`, in that order, under `08_CR_竞争风险修订/02_代码/`.
-4. Run R `00_总说明与运行顺序/21_RUN_PREDICTION_AND_SUBGROUPS.R`, then `08_CR_竞争风险修订/02_代码/03e_CR_PREDICTION_BOOTSTRAP.R`. The latter refits paired 10×5-fold CV in 200 patient bootstrap samples and supplies the current increment CIs and paired contrasts. The current subgroup/interaction entry is `02b_CR_RUN_SUBGROUPS.R`, also invoked by the main CR analysis. It fits 54 common-cohort-SD subgroup effects and 27 index-by-age/sex/diabetes interactions with two-sided Wald tests and Benjamini–Hochberg adjustment. Shared scripts 19/20 are function sources for the current pipeline; their standalone historical Cox workflows are not the manuscript's primary analysis.
-5. Run Python `08_CR_竞争风险修订/02_代码/04_CR_BUILD_FIGURES.py`. For a subgroup-only update, run `02b_CR_RUN_SUBGROUPS.R` then `04a_CR_BUILD_SUBGROUP_FIGURE.py`. Every figure, including flow, ROC and incremental AUC, is rebuilt from current aggregates under `$IR_CR_STAGE/figures`. Table mapping is `03_汇总结果/10_CR_table_result_figure_mapping.csv`.
-6. Run `python VALIDATE_PUBLIC.py` for matrix, denominator, figure, file-field and checksum verification. Three-cohort defaults are required for a complete package; single-cohort execution replaces combined summaries.
+## 运行环境
 
-The statistical and figure workflow is self-contained apart from the credentialed database inputs and installed software. Manuscript-generation, reviewer-response, private Zotero mapping, and Word integration files are kept in the local author workspace. The distributed reference metadata contains bibliographic fields only.
+正式结果使用 R 4.5.3；核心包为 cmprsk、survival、Hmisc、mice 和 pROC，具体版本见 `reports/reproducibility/*session.txt`。mice 是共用函数依赖，正式协变量未插补。Python 依赖列于 `requirements.txt`；提取还需 PostgreSQL 客户端及授权数据库。
 
-## Definitions that affect interpretation
+## 更新和保留
 
-The ≥24-hour eligibility restriction selects patients who remain in ICU through the exposure window. The 24-hour-origin sensitivity is structurally redundant for stay-specific event ordering. Two MIMIC-IV day-level 28-day deaths are excluded by its positive-follow-up rule; risk sets are explicitly exported. Hospital discharge before recorded ICU departure explains the extra hospital-duration exclusions, reported in the duration audit.
+按 [RUN_ORDER](docs/RUN_ORDER.md) 设置 `IR_REVISION_ROOT` 为本目录，在临时目录生成后替换固定成品。普通更新直接修改源文件；作者手改正文及动态引用应保留。
 
-Aggregate records retain previously computed analyses for reproducibility. The current manuscript omits the standalone standardized-effect comparisons, weighting figures, and cause-specific support figures requested for removal during author review. The manuscript retains four sensitivity categories: alternative laboratory summaries, a 24-hour landmark origin, selected comorbidity exclusions, and subgroup analysis. CareVue, COVID-19, glucocorticoid, and age-recoding sensitivities are retained only as historical computation records. The uncited proportionality-diagnostic and event-time tables are excluded from the supplement. The current table-source mapping identifies the 15 included supplementary tables, each cited in the main text and ordered by its first citation. Table 1 uses groupwise Shapiro–Wilk normality assessment to select mean (SD)/Welch t-test or median (IQR)/Mann–Whitney U. All 29 current continuous variables depart from normality in at least one group; the aggregate distribution audit records the actual decisions.
+历史原始资料及旧研究方案集中保存在本地 `archive/01_historical_materials.zip`；原工作区保存在 `archive/02_previous_workspace.zip`。归档保留原内部路径以维持冻结资料，不纳入当前运行入口，也不上传。`reports/reproducibility/PATH_MIGRATION.csv` 记录原公开包到当前路径的对应关系。公开仓库只包含可复现代码、非识别性汇总结果和图形，受限数据及本地投稿工作文件由 `.gitignore` 排除。
 
-Prediction is internally evaluated in MIMIC-IV. Current prediction figures compare SOFA, SAPS II, APS III and OASIS alone with each index extension. Figure 1 uses three parallel patient-selection lanes with 15 sequential side exclusions. Figure 2 shows three-cohort associations; the MIMIC-IV three-model plot is Figure S1. There are six main and ten supplementary figures. Figure S10 and Table S15 report subgroup estimates and interaction tests using the full MIMIC-IV common-index cohort SD. TyG-by-diabetes interactions for in-hospital and 28-day mortality remain significant after Benjamini–Hochberg adjustment; no SHR or AIP interaction does. Calibration, DCA and Basic Model aggregates are retained as historical computation records and are not current manuscript tables or figures.
+数据资源：MIMIC-IV 3.1 (10.13026/kpb9-mt58)、MIMIC-III 1.4 (10.13026/C2XW26)、NWICU 0.1.0 (10.13026/s84w-1829)。受限输入需按各数据使用协议取得授权。
 
-## Data resources and preservation
-
-MIMIC-IV v3.1: https://doi.org/10.13026/kpb9-mt58; MIMIC-III v1.4: https://doi.org/10.13026/C2XW26; NWICU v0.1.0: https://doi.org/10.13026/s84w-1829. Follow resource-specific credentialing and use agreements. Local source-table counts are in the flow CSV and may differ from other snapshots.
-
-`FILE_MANIFEST.csv` and `CHECKSUMS.sha256` describe this exact package. Restricted inputs stay outside distribution. Repository: https://github.com/jialeyang0104/IR-critical. No repository DOI has been assigned.
+Repository: https://github.com/jialeyang0104/IR-critical

@@ -1,4 +1,9 @@
-.restricted_input/
+# Licensed patient data and local author workspace
+data/restricted/
+reports/internal/
+deliverables/*.docx
+deliverables/*.md
+src/reporting/
 .env
 .env.*
 .pgpass
@@ -9,12 +14,11 @@
 *.mids
 *.docx
 *.doc
-*.sqlite
-*.sqlite-wal
-*.sqlite-shm
+*.sqlite*
 *.log
 .Rhistory
 .Rproj.user/
 __pycache__/
 *.pyc
 .DS_Store
+archive/
