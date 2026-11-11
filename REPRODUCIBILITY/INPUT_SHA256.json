@@ -1,0 +1,32 @@
+[
+  {
+    "cohort": "MIMIC-IV",
+    "input": "mimiciv_analysis.csv",
+    "input_sha256": "3bd9111eab7b48e06b60890f30171ef2aa67f5a22840c14c81802ced5449d972",
+    "output": "mimiciv_patient_level.csv",
+    "output_sha256": "981bd9e8769abb89f84cae52b0d051aba6a828f342cdc5682db34a7e2f75fcc6",
+    "rule": "Full ICU table: subject_id / intime / stay ID; rank=1 before eligibility",
+    "main_elderly_age": 90,
+    "sensitivity_elderly_age": 91.4
+  },
+  {
+    "cohort": "MIMIC-III",
+    "input": "mimiciii_external_validation.csv",
+    "input_sha256": "5adbfdd093d84a54ecaf60b26dcb9cde1c248d7cf6d415d0ac0c4d2d20bb9705",
+    "output": "mimiciii_patient_level.csv",
+    "output_sha256": "2f037d3235a3d124f13eec1b0e9b6e6f01770a0756e2b3c737a5d9522703842d",
+    "rule": "Full ICU table: subject_id / intime / stay ID; rank=1 before eligibility",
+    "main_elderly_age": 90,
+    "sensitivity_elderly_age": 91.4
+  },
+  {
+    "cohort": "NWICU",
+    "input": "nwicu_external_validation.csv",
+    "input_sha256": "171c372603457f7895eb31612578485dbd65015f403c095088e10e91d10d76b1",
+    "output": "nwicu_patient_level.csv",
+    "output_sha256": "58aee285579dd132fd0266d21800db65a8e4974f962fa81dddb50d7ca236cd81",
+    "rule": "Full ICU table: subject_id / intime / stay ID; rank=1 before eligibility",
+    "main_elderly_age": 90,
+    "sensitivity_elderly_age": 91.4
+  }
+]

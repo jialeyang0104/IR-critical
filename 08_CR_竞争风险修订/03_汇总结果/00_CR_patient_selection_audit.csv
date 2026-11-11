@@ -1,0 +1,4 @@
+cohort,source_rows,source_unique_patients,patient_rows,unique_patients,duplicate_patients,deidentified_age_rows
+MIMIC-IV,66867,53441,51564,51564,0,0
+MIMIC-III,41536,33095,32122,32122,0,1592
+NWICU,17351,17351,17351,17351,0,0

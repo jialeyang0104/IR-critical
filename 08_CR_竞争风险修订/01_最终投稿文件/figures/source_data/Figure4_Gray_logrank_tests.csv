@@ -1,0 +1,10 @@
+cohort,exposure,outcome,test,p_value,endpoint_scope,formal_status,outcome_label,cohort_label
+MIMIC-IV,SHR,hospital_mortality,Gray,0.0,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+MIMIC-IV,SHR,mortality_28d,Log-rank,2.4576061764673702e-23,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+MIMIC-IV,SHR,icu_mortality,Gray,3.24185123190546e-14,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+MIMIC-IV,TyG,hospital_mortality,Gray,6.43257459309599e-05,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+MIMIC-IV,TyG,mortality_28d,Log-rank,0.0240297028298925,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+MIMIC-IV,TyG,icu_mortality,Gray,0.0225667388801779,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+MIMIC-IV,AIP,hospital_mortality,Gray,0.216200234158572,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+MIMIC-IV,AIP,mortality_28d,Log-rank,0.429241479888835,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+MIMIC-IV,AIP,icu_mortality,Gray,0.229334699309358,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV

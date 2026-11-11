@@ -1,0 +1,4 @@
+"outcome","variables","selection_method"
+"hospital_mortality","age;sofa;charlson;sirs;RR;Tm;WBC;Hb;BUN;Na;K;MI;ventilation;liver_failure;HR;MBP;PLT;Scr;PT;ALT;AST;GCS","原稿LASSO、随机森林、XGBoost和Boruta投票后至少两种方法入选；本轮未重新筛选"
+"mortality_28d","age;sofa;charlson;sirs;RR;Tm;WBC;Hb;Na;K;MI;ventilation;liver_failure;GCS;HR;MBP;PLT;BUN;Scr;PT;ALT","原稿LASSO、随机森林、XGBoost和Boruta投票后至少两种方法入选；本轮未重新筛选"
+"icu_mortality","sofa;charlson;sirs;RR;WBC;Na;ventilation;liver_failure;age;HR;MBP;Tm;PLT;Hb;BUN;Scr;K;PT;ALT;AST;GCS","原稿LASSO、随机森林、XGBoost和Boruta投票后至少两种方法入选；本轮未重新筛选"

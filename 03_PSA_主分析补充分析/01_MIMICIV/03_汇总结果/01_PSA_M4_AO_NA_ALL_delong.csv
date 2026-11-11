@@ -1,0 +1,10 @@
+"cohort","outcome","exposure_1","exposure_2","p_value"
+"MIMIC-IV","hospital_mortality","SHR","TyG",3.43245945977191e-07
+"MIMIC-IV","hospital_mortality","SHR","AIP",3.71028743932212e-10
+"MIMIC-IV","hospital_mortality","TyG","AIP",8.93055800793614e-06
+"MIMIC-IV","mortality_28d","SHR","TyG",3.46598870506482e-12
+"MIMIC-IV","mortality_28d","SHR","AIP",1.84348795781851e-15
+"MIMIC-IV","mortality_28d","TyG","AIP",5.46862909105578e-06
+"MIMIC-IV","icu_mortality","SHR","TyG",3.39079974154675e-07
+"MIMIC-IV","icu_mortality","SHR","AIP",6.10115793346018e-09
+"MIMIC-IV","icu_mortality","TyG","AIP",0.000558942651177862

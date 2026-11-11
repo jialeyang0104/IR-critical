@@ -1,0 +1,4 @@
+"cohort","n","hospital_deaths","hospital_deaths_without_exact_timestamp","icu_deaths","icu_deaths_without_exact_timestamp","deaths28","deaths28_date_only","deaths28_hospital_timestamp"
+"MIMIC-IV",3056,321,1,192,1,453,147,306
+"MIMIC-III",1133,109,0,73,0,142,36,106
+"NWICU",1556,110,8,67,0,137,0,137

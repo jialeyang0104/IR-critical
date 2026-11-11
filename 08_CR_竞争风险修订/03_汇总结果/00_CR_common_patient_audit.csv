@@ -1,0 +1,4 @@
+"cohort","n","unique_patients","elderly_recoded","age_missing","main_age","sensitivity_age","icu_duration_hours_min","coded_sepsis_n","coded_head_trauma_n","diagnostic_flags_missing"
+"MIMIC-IV",3056,3056,0,0,90,91.4,24.0469444444444,154,67,1
+"MIMIC-III",1133,1133,65,0,90,91.4,24.0116666666667,36,13,0
+"NWICU",1556,1556,0,0,90,91.4,24.0166666666667,46,21,10

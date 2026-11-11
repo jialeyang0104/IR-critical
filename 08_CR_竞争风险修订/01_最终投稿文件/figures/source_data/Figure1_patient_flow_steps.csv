@@ -1,0 +1,16 @@
+cohort,step,input_n,excluded_n,retained_n,exclusion_rule
+MIMIC-IV,1,94458,29092,65366,Subsequent ICU stays
+MIMIC-IV,2,65366,0,65366,Unavailable source age
+MIMIC-IV,3,65366,0,65366,Age <18 years
+MIMIC-IV,4,65366,13802,51564,ICU stay or hospital follow-up <24 h
+MIMIC-IV,5,51564,48508,3056,Missing or invalid index components in −6 to +24 h
+MIMIC-III,1,61532,15056,46476,Subsequent ICU stays
+MIMIC-III,2,46476,356,46120,Unavailable source age
+MIMIC-III,3,46120,7929,38191,Age <18 years
+MIMIC-III,4,38191,6069,32122,ICU stay or hospital follow-up <24 h
+MIMIC-III,5,32122,30989,1133,Missing or invalid index components in −6 to +24 h
+NWICU,1,28612,5408,23204,Subsequent ICU stays
+NWICU,2,23204,5840,17364,Unavailable source age
+NWICU,3,17364,0,17364,Age <18 years
+NWICU,4,17364,13,17351,ICU stay or hospital follow-up <24 h
+NWICU,5,17351,15795,1556,Missing or invalid index components in −6 to +24 h

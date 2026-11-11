@@ -1,0 +1,30 @@
+"variable","label","survivor_n","non_survivor_n","normality_test","survivor_normality_p","non_survivor_normality_p","normality_alpha","both_groups_pass","summary","comparison_test","comparison_p"
+"age","Age (years)",2735,321,"Shapiro-Wilk",5.62409068841962e-21,2.80378672836823e-10,0.05,FALSE,"Median (IQR)","Mann-Whitney U",6.82424748742426e-12
+"los_hospital","Hospital length of stay (days)",2735,321,"Shapiro-Wilk",1.36551365789994e-55,3.67288743273667e-25,0.05,FALSE,"Median (IQR)","Mann-Whitney U",7.77483243445043e-05
+"los_icu","ICU length of stay (days)",2735,321,"Shapiro-Wilk",6.88169931628102e-61,4.53460158849658e-25,0.05,FALSE,"Median (IQR)","Mann-Whitney U",6.6960499558166e-12
+"sofa","SOFA",2735,321,"Shapiro-Wilk",5.00970533425269e-42,6.2132922814106e-12,0.05,FALSE,"Median (IQR)","Mann-Whitney U",2.52957271471078e-31
+"gcs","GCS",2732,320,"Shapiro-Wilk",4.16771270991481e-55,9.13560402782447e-22,0.05,FALSE,"Median (IQR)","Mann-Whitney U",0.19145442870336
+"charlson","Charlson comorbidity index",2735,321,"Shapiro-Wilk",5.0795910772575e-22,3.36575216341046e-05,0.05,FALSE,"Median (IQR)","Mann-Whitney U",5.21475865639375e-19
+"sirs","SIRS",2735,321,"Shapiro-Wilk",2.38267406587962e-39,2.10599850442843e-15,0.05,FALSE,"Median (IQR)","Mann-Whitney U",6.65088813645021e-31
+"HR","Heart rate (beats/min)",2732,320,"Shapiro-Wilk",7.96450417642109e-21,0.00023805223080616,0.05,FALSE,"Median (IQR)","Mann-Whitney U",8.8023631677641e-09
+"RR","Respiratory rate (breaths/min)",2721,320,"Shapiro-Wilk",3.18890567949267e-28,8.1409137212573e-08,0.05,FALSE,"Median (IQR)","Mann-Whitney U",9.64739486291597e-20
+"MBP","Mean blood pressure (mmHg)",2732,320,"Shapiro-Wilk",1.18538428060863e-12,0.000227356427815891,0.05,FALSE,"Median (IQR)","Mann-Whitney U",1.07846055682335e-09
+"Tm","Temperature (°C)",2724,313,"Shapiro-Wilk",3.75564580414017e-39,6.07112238550462e-15,0.05,FALSE,"Median (IQR)","Mann-Whitney U",5.70070636029807e-05
+"WBC","WBC (10^9/L)",2727,320,"Shapiro-Wilk",1.49992011980294e-34,9.82262745476256e-33,0.05,FALSE,"Median (IQR)","Mann-Whitney U",1.03061642252306e-23
+"PLT","PLT (10^9/L)",2724,319,"Shapiro-Wilk",9.665944242674e-28,8.01801639396097e-06,0.05,FALSE,"Median (IQR)","Mann-Whitney U",0.00821127121408105
+"Hb","Hb (g/dL)",2727,320,"Shapiro-Wilk",9.06499487457666e-11,0.389805999290202,0.05,FALSE,"Median (IQR)","Mann-Whitney U",8.13704179011831e-10
+"BUN","BUN (mg/dL)",2734,321,"Shapiro-Wilk",9.2033701339552e-55,4.33865261897694e-21,0.05,FALSE,"Median (IQR)","Mann-Whitney U",1.60748779516499e-19
+"Scr","Scr (mg/dL)",2733,321,"Shapiro-Wilk",3.54987024290439e-68,1.72826463089449e-26,0.05,FALSE,"Median (IQR)","Mann-Whitney U",1.77248748842007e-11
+"Na","Na (mmol/L)",2733,321,"Shapiro-Wilk",7.09982125388339e-24,3.07504501097311e-07,0.05,FALSE,"Median (IQR)","Mann-Whitney U",1.30034725205014e-05
+"K","K (mmol/L)",2731,321,"Shapiro-Wilk",4.82979053574833e-25,1.10467825300364e-07,0.05,FALSE,"Median (IQR)","Mann-Whitney U",6.65166826082087e-07
+"INR","INR",2500,300,"Shapiro-Wilk",5.78195922491528e-66,3.39187310126175e-24,0.05,FALSE,"Median (IQR)","Mann-Whitney U",1.14274780002043e-18
+"PT","PT (s)",2499,300,"Shapiro-Wilk",6.13941747424445e-66,2.0684608310141e-25,0.05,FALSE,"Median (IQR)","Mann-Whitney U",6.04042369643634e-18
+"ALT","ALT (IU/L)",2067,259,"Shapiro-Wilk",3.88288876092317e-71,2.76759157237654e-30,0.05,FALSE,"Median (IQR)","Mann-Whitney U",0.289662766233073
+"AST","AST (IU/L)",2078,264,"Shapiro-Wilk",9.4695972602496e-71,4.7505583425485e-31,0.05,FALSE,"Median (IQR)","Mann-Whitney U",1.0213292716371e-06
+"TG","TG (mg/dL)",2735,321,"Shapiro-Wilk",5.48851164733774e-72,1.14076944120015e-33,0.05,FALSE,"Median (IQR)","Mann-Whitney U",0.581749622905968
+"Glucose","Glucose (mg/dL)",2735,321,"Shapiro-Wilk",9.6274873073863e-51,3.62980833778012e-17,0.05,FALSE,"Median (IQR)","Mann-Whitney U",1.1486431104447e-23
+"HbA1c","HbA1c (%)",2735,321,"Shapiro-Wilk",3.01639097044151e-56,2.94678258565185e-21,0.05,FALSE,"Median (IQR)","Mann-Whitney U",0.0164364644678795
+"HDL","HDL-C (mg/dL)",2735,321,"Shapiro-Wilk",6.49810611688595e-28,1.89153595477192e-06,0.05,FALSE,"Median (IQR)","Mann-Whitney U",0.00265541110327481
+"TyG","TyG",2735,321,"Shapiro-Wilk",2.61947419720527e-27,2.87264052710507e-11,0.05,FALSE,"Median (IQR)","Mann-Whitney U",3.530029764276e-06
+"SHR","SHR",2735,321,"Shapiro-Wilk",7.66601007698493e-50,7.92264559316754e-09,0.05,FALSE,"Median (IQR)","Mann-Whitney U",3.34451784788246e-25
+"AIP","AIP",2735,321,"Shapiro-Wilk",1.62554378554616e-22,6.36414663262438e-12,0.05,FALSE,"Median (IQR)","Mann-Whitney U",0.143838352825794

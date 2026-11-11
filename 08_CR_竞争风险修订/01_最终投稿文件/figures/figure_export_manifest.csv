@@ -1,0 +1,17 @@
+figure,png_exists,pdf_exists
+Figure1_Cohort_flowchart,True,True
+Figure5_ROC,True,True
+Figure6_Incremental_performance,True,True
+FigureS01_Primary_MIMICIV,True,True
+Figure2_All_cohorts,True,True
+FigureS02_L24_M5_all_cohorts,True,True
+FigureS03_Alternative_lab_M4,True,True
+FigureS04_Alternative_lab_M3,True,True
+FigureS05_Alternative_lab_NW,True,True
+FigureS06_Exclusions_M4,True,True
+FigureS07_Exclusions_M3,True,True
+FigureS08_Exclusions_NW,True,True
+FigureS09_NW_recorded_28d_exploratory,True,True
+Figure3_RCS,True,True
+Figure4_CIF_KM,True,True
+FigureS10_Subgroup_forest,True,True

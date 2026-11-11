@@ -1,0 +1,4 @@
+cohort,all_icu_stays,first_patient_stays,source_covariates_available,excluded_source_covariates,adult_first_stays,eligible_pre_laboratory,excluded_nonfirst,excluded_age,excluded_duration,complete_indices_n,excluded_laboratory
+MIMIC-IV,94458,65366,65366,0,65366,51564,29092,0,13802,3056,48508
+MIMIC-III,61532,46476,46120,356,38191,32122,15056,7929,6069,1133,30989
+NWICU,28612,23204,17364,5840,17364,17351,5408,0,13,1556,15795

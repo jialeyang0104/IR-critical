@@ -1,0 +1,16 @@
+"cohort","variable","n","missing"
+"MIMIC-IV","age",3056,0
+"MIMIC-IV","gender",3056,0
+"MIMIC-IV","sofa",3056,0
+"MIMIC-IV","charlson",3056,0
+"MIMIC-IV","diabetes",3056,0
+"MIMIC-III","age",1133,0
+"MIMIC-III","gender",1133,0
+"MIMIC-III","sofa",1133,0
+"MIMIC-III","charlson",1133,0
+"MIMIC-III","diabetes",1133,0
+"NWICU","age",1556,0
+"NWICU","gender",1556,0
+"NWICU","sofa",1556,0
+"NWICU","charlson",1556,0
+"NWICU","diabetes",1556,0

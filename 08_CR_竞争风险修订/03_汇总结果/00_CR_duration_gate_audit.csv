@@ -1,0 +1,4 @@
+cohort,adult_n,after_icu24,after_both24,excluded_hospital24,excluded_hospital24_deaths,excluded_discharge_before_icuout,excluded_missing_discharge,excluded_hospital24_death_percent
+MIMIC-IV,65366,51838,51564,274,207,274,0,75.54744525547446
+MIMIC-III,38191,32321,32122,199,153,199,0,76.88442211055276
+NWICU,17364,17364,17351,13,3,13,0,23.076923076923077

@@ -1,0 +1,1415 @@
+{
+  "ir": {
+    "itemType": "journalArticle",
+    "title": "Insulin resistance in critical illness: consequences for nutrition therapy and glucose management",
+    "date": "Aug 1 2023",
+    "DOI": "10.1097/mcc.0000000000001055",
+    "url": "https://journals.lww.com/10.1097/MCC.0000000000001055",
+    "volume": "29",
+    "pages": "286-292",
+    "publicationTitle": "Curr Opin Crit Care",
+    "issue": "4",
+    "creators": [
+      {
+        "firstName": "J.",
+        "lastName": "Gunst",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "S. C.",
+        "lastName": "Verbruggen",
+        "creatorType": "author"
+      }
+    ]
+  },
+  "stress": {
+    "itemType": "journalArticle",
+    "title": "Stress hyperglycaemia",
+    "date": "May 23 2009",
+    "DOI": "10.1016/s0140-6736(09)60553-5",
+    "url": "https://linkinghub.elsevier.com/retrieve/pii/S0140673609605535",
+    "volume": "373",
+    "pages": "1798-807",
+    "publicationTitle": "Lancet",
+    "issue": "9677",
+    "creators": [
+      {
+        "firstName": "K. M.",
+        "lastName": "Dungan",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "S. S.",
+        "lastName": "Braithwaite",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "J. C.",
+        "lastName": "Preiser",
+        "creatorType": "author"
+      }
+    ]
+  },
+  "clamp": {
+    "itemType": "journalArticle",
+    "title": "Measuring and estimating insulin resistance in clinical and research settings",
+    "date": "Aug 2022",
+    "DOI": "10.1002/oby.23503",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/oby.23503",
+    "volume": "30",
+    "pages": "1549-1563",
+    "publicationTitle": "Obesity (Silver Spring)",
+    "issue": "8",
+    "creators": [
+      {
+        "firstName": "Amalia",
+        "lastName": "Gastaldelli",
+        "creatorType": "author"
+      }
+    ]
+  },
+  "shr": {
+    "itemType": "journalArticle",
+    "title": "Relative Hyperglycemia, a Marker of Critical Illness: Introducing the Stress Hyperglycemia Ratio",
+    "date": "Dec 2015",
+    "DOI": "10.1210/jc.2015-2660",
+    "url": "https://academic.oup.com/jcem/article/100/12/4490/2536331",
+    "volume": "100",
+    "pages": "4490-7",
+    "publicationTitle": "J Clin Endocrinol Metab",
+    "issue": "12",
+    "creators": [
+      {
+        "firstName": "G. W.",
+        "lastName": "Roberts",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "S. J.",
+        "lastName": "Quinn",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "N.",
+        "lastName": "Valentine",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "T.",
+        "lastName": "Alhawassi",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "H.",
+        "lastName": "O'Dea",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "S. N.",
+        "lastName": "Stranks",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "M. G.",
+        "lastName": "Burt",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "M. P.",
+        "lastName": "Doogue",
+        "creatorType": "author"
+      }
+    ]
+  },
+  "shr_sepsis": {
+    "itemType": "journalArticle",
+    "title": "Association between the stress hyperglycemia ratio and 28-day all-cause mortality in critically ill patients with sepsis: a retrospective cohort study and predictive model establishment based on machine learning",
+    "date": "May 9 2024",
+    "DOI": "10.1186/s12933-024-02265-4",
+    "url": "https://cardiab.biomedcentral.com/articles/10.1186/s12933-024-02265-4",
+    "volume": "23",
+    "pages": "163",
+    "publicationTitle": "Cardiovasc Diabetol",
+    "issue": "1",
+    "creators": [
+      {
+        "firstName": "F.",
+        "lastName": "Yan",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "X.",
+        "lastName": "Chen",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "X.",
+        "lastName": "Quan",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "L.",
+        "lastName": "Wang",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "X.",
+        "lastName": "Wei",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "J.",
+        "lastName": "Zhu",
+        "creatorType": "author"
+      }
+    ]
+  },
+  "shr_general": {
+    "itemType": "journalArticle",
+    "title": "Prognostic significance of the stress hyperglycemia ratio in critically ill patients",
+    "date": "Oct 13 2023",
+    "DOI": "10.1186/s12933-023-02005-0",
+    "url": "https://cardiab.biomedcentral.com/articles/10.1186/s12933-023-02005-0",
+    "volume": "22",
+    "pages": "275",
+    "publicationTitle": "Cardiovasc Diabetol",
+    "issue": "1",
+    "creators": [
+      {
+        "firstName": "L.",
+        "lastName": "Li",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "M.",
+        "lastName": "Zhao",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Z.",
+        "lastName": "Zhang",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "L.",
+        "lastName": "Zhou",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Z.",
+        "lastName": "Zhang",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Y.",
+        "lastName": "Xiong",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Z.",
+        "lastName": "Hu",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Y.",
+        "lastName": "Yao",
+        "creatorType": "author"
+      }
+    ]
+  },
+  "shr_af": {
+    "itemType": "journalArticle",
+    "title": "Association between stress hyperglycemia ratio index and all-cause mortality in critically ill patients with atrial fibrillation: a retrospective study using the MIMIC-IV database",
+    "date": "Oct 14 2024",
+    "DOI": "10.1186/s12933-024-02462-1",
+    "url": "https://cardiab.biomedcentral.com/articles/10.1186/s12933-024-02462-1",
+    "volume": "23",
+    "pages": "363",
+    "publicationTitle": "Cardiovasc Diabetol",
+    "issue": "1",
+    "creators": [
+      {
+        "firstName": "S.",
+        "lastName": "Cheng",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "H.",
+        "lastName": "Shen",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Y.",
+        "lastName": "Han",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "S.",
+        "lastName": "Han",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Y.",
+        "lastName": "Lu",
+        "creatorType": "author"
+      }
+    ]
+  },
+  "tyg_sepsis": {
+    "itemType": "journalArticle",
+    "title": "Association between triglyceride-glucose index and in-hospital mortality in critically ill patients with sepsis: analysis of the MIMIC-IV database",
+    "date": "Nov 8 2023",
+    "DOI": "10.1186/s12933-023-02041-w",
+    "url": "https://cardiab.biomedcentral.com/articles/10.1186/s12933-023-02041-w",
+    "volume": "22",
+    "pages": "307",
+    "publicationTitle": "Cardiovasc Diabetol",
+    "issue": "1",
+    "creators": [
+      {
+        "firstName": "R.",
+        "lastName": "Zheng",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "S.",
+        "lastName": "Qian",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Y.",
+        "lastName": "Shi",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "C.",
+        "lastName": "Lou",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "H.",
+        "lastName": "Xu",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "J.",
+        "lastName": "Pan",
+        "creatorType": "author"
+      }
+    ]
+  },
+  "aip_stroke": {
+    "itemType": "journalArticle",
+    "title": "Association between atherogenic index of plasma and sepsis in critically ill patients with ischemic stroke: a retrospective cohort study using propensity score and machine learning approaches",
+    "date": "Oct 16 2025",
+    "DOI": "10.1186/s12944-025-02737-w",
+    "url": "https://lipidworld.biomedcentral.com/articles/10.1186/s12944-025-02737-w",
+    "volume": "24",
+    "pages": "328",
+    "publicationTitle": "Lipids Health Dis",
+    "issue": "1",
+    "creators": [
+      {
+        "firstName": "F.",
+        "lastName": "Yao",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "L.",
+        "lastName": "Liu",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "J.",
+        "lastName": "Zhang",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "X.",
+        "lastName": "Chen",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Z.",
+        "lastName": "He",
+        "creatorType": "author"
+      }
+    ]
+  },
+  "comparison": {
+    "itemType": "journalArticle",
+    "title": "Evaluation of four insulin resistance surrogate indicators for predicting short-term mortality in critically ill patients with ischemic stroke: a nationwide retrospective cohort study",
+    "date": "Oct 28 2025",
+    "DOI": "10.1186/s12933-025-02956-6",
+    "url": "https://cardiab.biomedcentral.com/articles/10.1186/s12933-025-02956-6",
+    "volume": "24",
+    "pages": "409",
+    "publicationTitle": "Cardiovasc Diabetol",
+    "issue": "1",
+    "creators": [
+      {
+        "firstName": "Q.",
+        "lastName": "Ouyang",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "C.",
+        "lastName": "Zhang",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "H.",
+        "lastName": "Zhang",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "T.",
+        "lastName": "Xiong",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Y.",
+        "lastName": "Chen",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "P.",
+        "lastName": "Zhang",
+        "creatorType": "author"
+      }
+    ]
+  },
+  "shr_review": {
+    "itemType": "journalArticle",
+    "title": "Relationship between stress hyperglycaemic ratio (SHR) and critical illness: a systematic review",
+    "date": "May 2 2025",
+    "DOI": "10.1186/s12933-025-02751-3",
+    "url": "https://cardiab.biomedcentral.com/articles/10.1186/s12933-025-02751-3",
+    "volume": "24",
+    "pages": "188",
+    "publicationTitle": "Cardiovasc Diabetol",
+    "issue": "1",
+    "creators": [
+      {
+        "firstName": "G.",
+        "lastName": "Song",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "X.",
+        "lastName": "Liu",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Z.",
+        "lastName": "Lu",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "J.",
+        "lastName": "Guan",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "X.",
+        "lastName": "Chen",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Y.",
+        "lastName": "Li",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "G.",
+        "lastName": "Liu",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "G.",
+        "lastName": "Wang",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "F.",
+        "lastName": "Ma",
+        "creatorType": "author"
+      }
+    ]
+  },
+  "strobe": {
+    "itemType": "journalArticle",
+    "title": "The Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) Statement: Guidelines for Reporting Observational Studies",
+    "date": "2007-10-16",
+    "DOI": "10.7326/0003-4819-147-8-200710160-00010",
+    "url": "https://doi.org/10.7326/0003-4819-147-8-200710160-00010",
+    "volume": "147",
+    "publisher": "American College of Physicians",
+    "pages": "573-577",
+    "publicationTitle": "Annals of Internal Medicine",
+    "issue": "8",
+    "creators": [
+      {
+        "firstName": "Erik",
+        "lastName": "von Elm",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Douglas G.",
+        "lastName": "Altman",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Matthias",
+        "lastName": "Egger",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Stuart J.",
+        "lastName": "Pocock",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Peter C.",
+        "lastName": "Gøtzsche",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Jan P.",
+        "lastName": "Vandenbroucke",
+        "creatorType": "author"
+      },
+      {
+        "name": "for the STROBE Initiative",
+        "creatorType": "author"
+      }
+    ]
+  },
+  "m4": {
+    "itemType": "journalArticle",
+    "title": "MIMIC-IV, a freely accessible electronic health record dataset",
+    "date": "Jan 3 2023",
+    "DOI": "10.1038/s41597-022-01899-x",
+    "url": "https://www.nature.com/articles/s41597-022-01899-x",
+    "volume": "10",
+    "pages": "1",
+    "publicationTitle": "Sci Data",
+    "issue": "1",
+    "creators": [
+      {
+        "firstName": "A. E. W.",
+        "lastName": "Johnson",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "L.",
+        "lastName": "Bulgarelli",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "L.",
+        "lastName": "Shen",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "A.",
+        "lastName": "Gayles",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "A.",
+        "lastName": "Shammout",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "S.",
+        "lastName": "Horng",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "T. J.",
+        "lastName": "Pollard",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "S.",
+        "lastName": "Hao",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "B.",
+        "lastName": "Moody",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "B.",
+        "lastName": "Gow",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "L. H.",
+        "lastName": "Lehman",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "L. A.",
+        "lastName": "Celi",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "R. G.",
+        "lastName": "Mark",
+        "creatorType": "author"
+      }
+    ]
+  },
+  "m3": {
+    "itemType": "journalArticle",
+    "title": "MIMIC-III, a freely accessible critical care database",
+    "date": "2016-5-24",
+    "DOI": "10.1038/sdata.2016.35",
+    "url": "https://doi.org/10.1038/sdata.2016.35",
+    "volume": "3",
+    "publisher": "Springer Science and Business Media LLC",
+    "pages": "160035",
+    "publicationTitle": "Scientific Data",
+    "issue": "1",
+    "creators": [
+      {
+        "firstName": "Alistair E.W.",
+        "lastName": "Johnson",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Tom J.",
+        "lastName": "Pollard",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Lu",
+        "lastName": "Shen",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Li-wei H.",
+        "lastName": "Lehman",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Mengling",
+        "lastName": "Feng",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Mohammad",
+        "lastName": "Ghassemi",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Benjamin",
+        "lastName": "Moody",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Peter",
+        "lastName": "Szolovits",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Leo",
+        "lastName": "Anthony Celi",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Roger G.",
+        "lastName": "Mark",
+        "creatorType": "author"
+      }
+    ]
+  },
+  "lipids": {
+    "itemType": "journalArticle",
+    "title": "Lipid and Lipoprotein Dysregulation in Sepsis: Clinical and Mechanistic Insights into Chronic Critical Illness",
+    "date": "Apr 14 2021",
+    "DOI": "10.3390/jcm10081693",
+    "url": "https://www.mdpi.com/2077-0383/10/8/1693",
+    "volume": "10",
+    "pages": "1693",
+    "publicationTitle": "J Clin Med",
+    "issue": "8",
+    "creators": [
+      {
+        "firstName": "G.",
+        "lastName": "Barker",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "C.",
+        "lastName": "Leeuwenburgh",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "T.",
+        "lastName": "Brusko",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "L.",
+        "lastName": "Moldawer",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "S. T.",
+        "lastName": "Reddy",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "F. W.",
+        "lastName": "Guirgis",
+        "creatorType": "author"
+      }
+    ]
+  },
+  "propofol": {
+    "itemType": "journalArticle",
+    "title": "The Incidence of Propofol-Induced Hypertriglyceridemia and Identification of Associated Risk Factors",
+    "date": "Dec 2020",
+    "DOI": "10.1097/cce.0000000000000282",
+    "url": "https://journals.lww.com/10.1097/CCE.0000000000000282",
+    "volume": "2",
+    "pages": "e0282",
+    "publicationTitle": "Crit Care Explor",
+    "issue": "12",
+    "creators": [
+      {
+        "firstName": "M. J.",
+        "lastName": "Corrado",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "M. P.",
+        "lastName": "Kovacevic",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "K. M.",
+        "lastName": "Dube",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "K. E.",
+        "lastName": "Lupi",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "P. M.",
+        "lastName": "Szumita",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "J. R.",
+        "lastName": "DeGrado",
+        "creatorType": "author"
+      }
+    ]
+  },
+  "lipolysis": {
+    "itemType": "journalArticle",
+    "title": "Regulation of triglyceride metabolism. IV. Hormonal regulation of lipolysis in adipose tissue",
+    "date": "Jul 2007",
+    "DOI": "10.1152/ajpgi.00554.2006",
+    "url": "https://www.physiology.org/doi/10.1152/ajpgi.00554.2006",
+    "volume": "293",
+    "pages": "G1-4",
+    "publicationTitle": "Am J Physiol Gastrointest Liver Physiol",
+    "issue": "1",
+    "creators": [
+      {
+        "firstName": "K.",
+        "lastName": "Jaworski",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "E.",
+        "lastName": "Sarkadi-Nagy",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "R. E.",
+        "lastName": "Duncan",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "M.",
+        "lastName": "Ahmadian",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "H. S.",
+        "lastName": "Sul",
+        "creatorType": "author"
+      }
+    ]
+  },
+  "tyg": {
+    "itemType": "journalArticle",
+    "title": "The Product of Triglycerides and Glucose, a Simple Measure of Insulin Sensitivity. Comparison with the Euglycemic-Hyperinsulinemic Clamp",
+    "date": "2010",
+    "DOI": "10.1210/jc.2010-0288",
+    "url": "https://doi.org/10.1210/jc.2010-0288",
+    "volume": "95",
+    "pages": "3347-3351",
+    "publicationTitle": "J Clin Endocrinol Metab",
+    "issue": "7",
+    "creators": [
+      {
+        "firstName": "Fernando",
+        "lastName": "Guerrero-Romero",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Luis E.",
+        "lastName": "Simental-Mendía",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Manuel",
+        "lastName": "González-Ortiz",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Esperanza",
+        "lastName": "Martínez-Abundis",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "María Guadalupe",
+        "lastName": "Ramos-Zavala",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Sonia O.",
+        "lastName": "Hernández-González",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Orfilia",
+        "lastName": "Jacques-Camarena",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Martha",
+        "lastName": "Rodríguez-Morán",
+        "creatorType": "author"
+      }
+    ]
+  },
+  "aip": {
+    "itemType": "journalArticle",
+    "title": "The plasma parameter log (TG/HDL-C) as an atherogenic index: correlation with lipoprotein particle size and esterification rate in apoB-lipoprotein-depleted plasma (FER(HDL)).",
+    "date": "2001",
+    "DOI": "10.1016/S0009-9120(01)00263-6",
+    "url": "https://doi.org/10.1016/S0009-9120(01)00263-6",
+    "volume": "34",
+    "pages": "583-8",
+    "publicationTitle": "Clin Biochem",
+    "issue": "7",
+    "creators": [
+      {
+        "firstName": "Maria",
+        "lastName": "Dobiásová",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Jiri",
+        "lastName": "Frohlich",
+        "creatorType": "author"
+      }
+    ]
+  },
+  "m4data": {
+    "itemType": "journalArticle",
+    "title": "MIMIC-IV (version 3.1)",
+    "date": "2024",
+    "DOI": "10.13026/kpb9-mt58",
+    "url": "https://doi.org/10.13026/kpb9-mt58",
+    "publicationTitle": "PhysioNet",
+    "creators": [
+      {
+        "firstName": "Alistair",
+        "lastName": "Johnson",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Lucas",
+        "lastName": "Bulgarelli",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Tom",
+        "lastName": "Pollard",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Brian",
+        "lastName": "Gow",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Benjamin",
+        "lastName": "Moody",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Steven",
+        "lastName": "Horng",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Leo Anthony",
+        "lastName": "Celi",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Roger",
+        "lastName": "Mark",
+        "creatorType": "author"
+      }
+    ]
+  },
+  "m3data": {
+    "itemType": "journalArticle",
+    "title": "MIMIC-III Clinical Database (version 1.4)",
+    "date": "2016",
+    "DOI": "10.13026/C2XW26",
+    "url": "https://doi.org/10.13026/C2XW26",
+    "publicationTitle": "PhysioNet",
+    "creators": [
+      {
+        "firstName": "Alistair",
+        "lastName": "Johnson",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Tom",
+        "lastName": "Pollard",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Roger",
+        "lastName": "Mark",
+        "creatorType": "author"
+      }
+    ]
+  },
+  "nwicu": {
+    "itemType": "journalArticle",
+    "title": "Northwestern ICU (NWICU) database (version 0.1.0)",
+    "date": "2024",
+    "DOI": "10.13026/s84w-1829",
+    "url": "https://doi.org/10.13026/s84w-1829",
+    "publicationTitle": "PhysioNet",
+    "creators": [
+      {
+        "firstName": "Dana",
+        "lastName": "Moukheiber",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "William",
+        "lastName": "Temps",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Bhadrappa",
+        "lastName": "Molgi",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Yikuan",
+        "lastName": "Li",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Alice",
+        "lastName": "Lu",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Prasanth",
+        "lastName": "Nannapaneni",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Abdulrahman",
+        "lastName": "Chahin",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Sicheng",
+        "lastName": "Hao",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Felipe",
+        "lastName": "Torres Fabregas",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Leo Anthony",
+        "lastName": "Celi",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Adrian",
+        "lastName": "Wong",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Maxwell",
+        "lastName": "Lloyd",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Xavier",
+        "lastName": "Borrat Frigola",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Hyung-Chul",
+        "lastName": "Lee",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Daniel",
+        "lastName": "Schneider",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Tom",
+        "lastName": "Pollard",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Yuan",
+        "lastName": "Luo",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Abel",
+        "lastName": "Kho",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Roger",
+        "lastName": "Mark",
+        "creatorType": "author"
+      }
+    ]
+  },
+  "finegray": {
+    "itemType": "journalArticle",
+    "title": "A Proportional Hazards Model for the Subdistribution of a Competing Risk",
+    "date": "1999",
+    "DOI": "10.1080/01621459.1999.10474144",
+    "url": "https://doi.org/10.1080/01621459.1999.10474144",
+    "volume": "94",
+    "pages": "496-509",
+    "publicationTitle": "J Am Stat Assoc",
+    "issue": "446",
+    "creators": [
+      {
+        "firstName": "Jason P.",
+        "lastName": "Fine",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Robert J.",
+        "lastName": "Gray",
+        "creatorType": "author"
+      }
+    ]
+  },
+  "gray": {
+    "itemType": "journalArticle",
+    "title": "A Class of K-Sample Tests for Comparing the Cumulative Incidence of a Competing Risk",
+    "date": "1988",
+    "DOI": "10.1214/aos/1176350951",
+    "url": "https://doi.org/10.1214/aos/1176350951",
+    "volume": "16",
+    "pages": "1141-1154",
+    "publicationTitle": "Ann Stat",
+    "issue": "3",
+    "creators": [
+      {
+        "firstName": "Robert J.",
+        "lastName": "Gray",
+        "creatorType": "author"
+      }
+    ]
+  },
+  "splines": {
+    "itemType": "journalArticle",
+    "title": "Flexible regression models with cubic splines.",
+    "date": "1989",
+    "DOI": "10.1002/sim.4780080504",
+    "url": "https://doi.org/10.1002/sim.4780080504",
+    "volume": "8",
+    "pages": "551-61",
+    "publicationTitle": "Stat Med",
+    "issue": "5",
+    "creators": [
+      {
+        "firstName": "Stanley",
+        "lastName": "Durrleman",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Richard",
+        "lastName": "Simon",
+        "creatorType": "author"
+      }
+    ]
+  },
+  "delong": {
+    "itemType": "journalArticle",
+    "title": "Comparing the areas under two or more correlated receiver operating characteristic curves: a nonparametric approach.",
+    "date": "1988",
+    "DOI": "10.2307/2531595",
+    "url": "https://doi.org/10.2307/2531595",
+    "volume": "44",
+    "pages": "837-45",
+    "publicationTitle": "Biometrics",
+    "issue": "3",
+    "creators": [
+      {
+        "firstName": "Elizabeth R.",
+        "lastName": "DeLong",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "David M.",
+        "lastName": "DeLong",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Daniel L.",
+        "lastName": "Clarke-Pearson",
+        "creatorType": "author"
+      }
+    ]
+  },
+  "dca": {
+    "itemType": "journalArticle",
+    "title": "Decision Curve Analysis: A Novel Method for Evaluating Prediction Models",
+    "date": "2006",
+    "DOI": "10.1177/0272989X06295361",
+    "url": "https://doi.org/10.1177/0272989X06295361",
+    "volume": "26",
+    "pages": "565-574",
+    "publicationTitle": "Medical Decision Making",
+    "issue": "6",
+    "creators": [
+      {
+        "firstName": "Andrew J.",
+        "lastName": "Vickers",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Elena B.",
+        "lastName": "Elkin",
+        "creatorType": "author"
+      }
+    ]
+  },
+  "tripod": {
+    "itemType": "journalArticle",
+    "title": "Transparent reporting of a multivariable prediction model for individual prognosis or diagnosis (TRIPOD): the TRIPOD Statement",
+    "date": "2015",
+    "DOI": "10.1186/s12916-014-0241-z",
+    "url": "https://doi.org/10.1186/s12916-014-0241-z",
+    "volume": "13",
+    "pages": "1",
+    "publicationTitle": "BMC Med",
+    "issue": "1",
+    "creators": [
+      {
+        "firstName": "Gary S.",
+        "lastName": "Collins",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Johannes B.",
+        "lastName": "Reitsma",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Douglas G.",
+        "lastName": "Altman",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Karel G. M.",
+        "lastName": "Moons",
+        "creatorType": "author"
+      }
+    ]
+  },
+  "sofa": {
+    "itemType": "journalArticle",
+    "title": "The SOFA (Sepsis-related Organ Failure Assessment) score to describe organ dysfunction/failure. On behalf of the Working Group on Sepsis-Related Problems of the European Society of Intensive Care Medicine",
+    "date": "1996",
+    "DOI": "10.1007/BF01709751",
+    "url": "https://doi.org/10.1007/BF01709751",
+    "volume": "22",
+    "pages": "707-10",
+    "publicationTitle": "Intensive care medicine",
+    "issue": "7",
+    "creators": [
+      {
+        "firstName": "J L",
+        "lastName": "Vincent",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "R",
+        "lastName": "Moreno",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "J",
+        "lastName": "Takala",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "S",
+        "lastName": "Willatts",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "A",
+        "lastName": "De Mendonça",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "H",
+        "lastName": "Bruining",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "C K",
+        "lastName": "Reinhart",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "P M",
+        "lastName": "Suter",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "L G",
+        "lastName": "Thijs",
+        "creatorType": "author"
+      }
+    ]
+  },
+  "charlson": {
+    "itemType": "journalArticle",
+    "title": "A new method of classifying prognostic comorbidity in longitudinal studies: development and validation",
+    "date": "1987",
+    "DOI": "10.1016/0021-9681(87)90171-8",
+    "url": "https://doi.org/10.1016/0021-9681(87)90171-8",
+    "volume": "40",
+    "pages": "373-83",
+    "publicationTitle": "Journal of chronic diseases",
+    "issue": "5",
+    "creators": [
+      {
+        "firstName": "M E",
+        "lastName": "Charlson",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "P",
+        "lastName": "Pompei",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "K L",
+        "lastName": "Ales",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "C R",
+        "lastName": "MacKenzie",
+        "creatorType": "author"
+      }
+    ]
+  },
+  "eag": {
+    "itemType": "journalArticle",
+    "title": "Translating the A1C assay into estimated average glucose values",
+    "date": "2008",
+    "DOI": "10.2337/dc08-0545",
+    "url": "https://doi.org/10.2337/dc08-0545",
+    "volume": "31",
+    "pages": "1473-8",
+    "publicationTitle": "Diabetes care",
+    "issue": "8",
+    "creators": [
+      {
+        "firstName": "David M",
+        "lastName": "Nathan",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Judith",
+        "lastName": "Kuenen",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Rikke",
+        "lastName": "Borg",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Hui",
+        "lastName": "Zheng",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "David",
+        "lastName": "Schoenfeld",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Robert J",
+        "lastName": "Heine",
+        "creatorType": "author"
+      },
+      {
+        "name": "A1c-Derived Average Glucose Study Group",
+        "creatorType": "author"
+      }
+    ]
+  },
+  "sapsii": {
+    "itemType": "journalArticle",
+    "title": "A new Simplified Acute Physiology Score (SAPS II) based on a European/North American multicenter study",
+    "date": "1993",
+    "DOI": "10.1001/jama.270.24.2957",
+    "url": "https://doi.org/10.1001/jama.270.24.2957",
+    "volume": "270",
+    "pages": "2957-63",
+    "publicationTitle": "JAMA",
+    "issue": "24",
+    "creators": [
+      {
+        "firstName": "J R",
+        "lastName": "Le Gall",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "S",
+        "lastName": "Lemeshow",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "F",
+        "lastName": "Saulnier",
+        "creatorType": "author"
+      }
+    ]
+  },
+  "apsiii": {
+    "itemType": "journalArticle",
+    "title": "The APACHE III prognostic system. Risk prediction of hospital mortality for critically ill hospitalized adults",
+    "date": "1991",
+    "DOI": "10.1378/chest.100.6.1619",
+    "url": "https://doi.org/10.1378/chest.100.6.1619",
+    "volume": "100",
+    "pages": "1619-36",
+    "publicationTitle": "Chest",
+    "issue": "6",
+    "creators": [
+      {
+        "firstName": "W A",
+        "lastName": "Knaus",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "D P",
+        "lastName": "Wagner",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "E A",
+        "lastName": "Draper",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "J E",
+        "lastName": "Zimmerman",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "M",
+        "lastName": "Bergner",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "P G",
+        "lastName": "Bastos",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "C A",
+        "lastName": "Sirio",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "D J",
+        "lastName": "Murphy",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "T",
+        "lastName": "Lotring",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "A",
+        "lastName": "Damiano",
+        "creatorType": "author"
+      }
+    ]
+  },
+  "oasis": {
+    "itemType": "journalArticle",
+    "title": "A new severity of illness scale using a subset of Acute Physiology And Chronic Health Evaluation data elements shows comparable predictive accuracy",
+    "date": "2013",
+    "DOI": "10.1097/CCM.0b013e31828a24fe",
+    "url": "https://doi.org/10.1097/CCM.0b013e31828a24fe",
+    "volume": "41",
+    "pages": "1711-8",
+    "publicationTitle": "Critical care medicine",
+    "issue": "7",
+    "creators": [
+      {
+        "firstName": "Alistair E W",
+        "lastName": "Johnson",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Andrew A",
+        "lastName": "Kramer",
+        "creatorType": "author"
+      },
+      {
+        "firstName": "Gari D",
+        "lastName": "Clifford",
+        "creatorType": "author"
+      }
+    ]
+  }
+}

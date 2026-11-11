@@ -1,0 +1,136 @@
+tertile,time,n_risk,cohort,exposure,outcome,endpoint_scope,formal_status,outcome_label,cohort_label
+T1,0,1020,MIMIC-IV,SHR,hospital_mortality,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+T1,7,383,MIMIC-IV,SHR,hospital_mortality,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+T1,14,153,MIMIC-IV,SHR,hospital_mortality,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+T1,21,59,MIMIC-IV,SHR,hospital_mortality,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+T1,28,31,MIMIC-IV,SHR,hospital_mortality,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+T2,0,1017,MIMIC-IV,SHR,hospital_mortality,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+T2,7,442,MIMIC-IV,SHR,hospital_mortality,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+T2,14,188,MIMIC-IV,SHR,hospital_mortality,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+T2,21,87,MIMIC-IV,SHR,hospital_mortality,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+T2,28,47,MIMIC-IV,SHR,hospital_mortality,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+T3,0,1019,MIMIC-IV,SHR,hospital_mortality,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+T3,7,532,MIMIC-IV,SHR,hospital_mortality,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+T3,14,249,MIMIC-IV,SHR,hospital_mortality,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+T3,21,122,MIMIC-IV,SHR,hospital_mortality,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+T3,28,55,MIMIC-IV,SHR,hospital_mortality,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+T1,0,1020,MIMIC-IV,SHR,mortality_28d,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+T1,7,986,MIMIC-IV,SHR,mortality_28d,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+T1,14,959,MIMIC-IV,SHR,mortality_28d,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+T1,21,949,MIMIC-IV,SHR,mortality_28d,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+T1,28,939,MIMIC-IV,SHR,mortality_28d,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+T2,0,1017,MIMIC-IV,SHR,mortality_28d,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+T2,7,954,MIMIC-IV,SHR,mortality_28d,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+T2,14,919,MIMIC-IV,SHR,mortality_28d,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+T2,21,900,MIMIC-IV,SHR,mortality_28d,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+T2,28,885,MIMIC-IV,SHR,mortality_28d,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+T3,0,1019,MIMIC-IV,SHR,mortality_28d,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+T3,7,878,MIMIC-IV,SHR,mortality_28d,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+T3,14,821,MIMIC-IV,SHR,mortality_28d,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+T3,21,798,MIMIC-IV,SHR,mortality_28d,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+T3,28,781,MIMIC-IV,SHR,mortality_28d,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+T1,0,1020,MIMIC-IV,SHR,icu_mortality,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+T1,7,117,MIMIC-IV,SHR,icu_mortality,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+T1,14,30,MIMIC-IV,SHR,icu_mortality,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+T1,21,13,MIMIC-IV,SHR,icu_mortality,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+T1,28,7,MIMIC-IV,SHR,icu_mortality,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+T2,0,1017,MIMIC-IV,SHR,icu_mortality,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+T2,7,185,MIMIC-IV,SHR,icu_mortality,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+T2,14,64,MIMIC-IV,SHR,icu_mortality,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+T2,21,23,MIMIC-IV,SHR,icu_mortality,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+T2,28,8,MIMIC-IV,SHR,icu_mortality,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+T3,0,1019,MIMIC-IV,SHR,icu_mortality,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+T3,7,236,MIMIC-IV,SHR,icu_mortality,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+T3,14,75,MIMIC-IV,SHR,icu_mortality,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+T3,21,32,MIMIC-IV,SHR,icu_mortality,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+T3,28,15,MIMIC-IV,SHR,icu_mortality,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+T1,0,1019,MIMIC-IV,TyG,hospital_mortality,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+T1,7,437,MIMIC-IV,TyG,hospital_mortality,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+T1,14,160,MIMIC-IV,TyG,hospital_mortality,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+T1,21,64,MIMIC-IV,TyG,hospital_mortality,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+T1,28,31,MIMIC-IV,TyG,hospital_mortality,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+T2,0,1018,MIMIC-IV,TyG,hospital_mortality,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+T2,7,447,MIMIC-IV,TyG,hospital_mortality,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+T2,14,199,MIMIC-IV,TyG,hospital_mortality,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+T2,21,93,MIMIC-IV,TyG,hospital_mortality,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+T2,28,46,MIMIC-IV,TyG,hospital_mortality,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+T3,0,1019,MIMIC-IV,TyG,hospital_mortality,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+T3,7,473,MIMIC-IV,TyG,hospital_mortality,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+T3,14,231,MIMIC-IV,TyG,hospital_mortality,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+T3,21,111,MIMIC-IV,TyG,hospital_mortality,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+T3,28,56,MIMIC-IV,TyG,hospital_mortality,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+T1,0,1019,MIMIC-IV,TyG,mortality_28d,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+T1,7,961,MIMIC-IV,TyG,mortality_28d,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+T1,14,924,MIMIC-IV,TyG,mortality_28d,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+T1,21,907,MIMIC-IV,TyG,mortality_28d,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+T1,28,892,MIMIC-IV,TyG,mortality_28d,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+T2,0,1018,MIMIC-IV,TyG,mortality_28d,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+T2,7,929,MIMIC-IV,TyG,mortality_28d,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+T2,14,889,MIMIC-IV,TyG,mortality_28d,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+T2,21,876,MIMIC-IV,TyG,mortality_28d,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+T2,28,866,MIMIC-IV,TyG,mortality_28d,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+T3,0,1019,MIMIC-IV,TyG,mortality_28d,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+T3,7,928,MIMIC-IV,TyG,mortality_28d,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+T3,14,886,MIMIC-IV,TyG,mortality_28d,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+T3,21,864,MIMIC-IV,TyG,mortality_28d,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+T3,28,847,MIMIC-IV,TyG,mortality_28d,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+T1,0,1019,MIMIC-IV,TyG,icu_mortality,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+T1,7,148,MIMIC-IV,TyG,icu_mortality,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+T1,14,42,MIMIC-IV,TyG,icu_mortality,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+T1,21,18,MIMIC-IV,TyG,icu_mortality,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+T1,28,8,MIMIC-IV,TyG,icu_mortality,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+T2,0,1018,MIMIC-IV,TyG,icu_mortality,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+T2,7,173,MIMIC-IV,TyG,icu_mortality,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+T2,14,44,MIMIC-IV,TyG,icu_mortality,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+T2,21,19,MIMIC-IV,TyG,icu_mortality,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+T2,28,12,MIMIC-IV,TyG,icu_mortality,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+T3,0,1019,MIMIC-IV,TyG,icu_mortality,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+T3,7,217,MIMIC-IV,TyG,icu_mortality,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+T3,14,83,MIMIC-IV,TyG,icu_mortality,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+T3,21,31,MIMIC-IV,TyG,icu_mortality,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+T3,28,10,MIMIC-IV,TyG,icu_mortality,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+T1,0,1020,MIMIC-IV,AIP,hospital_mortality,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+T1,7,445,MIMIC-IV,AIP,hospital_mortality,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+T1,14,171,MIMIC-IV,AIP,hospital_mortality,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+T1,21,71,MIMIC-IV,AIP,hospital_mortality,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+T1,28,32,MIMIC-IV,AIP,hospital_mortality,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+T2,0,1017,MIMIC-IV,AIP,hospital_mortality,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+T2,7,451,MIMIC-IV,AIP,hospital_mortality,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+T2,14,197,MIMIC-IV,AIP,hospital_mortality,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+T2,21,80,MIMIC-IV,AIP,hospital_mortality,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+T2,28,37,MIMIC-IV,AIP,hospital_mortality,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+T3,0,1019,MIMIC-IV,AIP,hospital_mortality,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+T3,7,461,MIMIC-IV,AIP,hospital_mortality,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+T3,14,222,MIMIC-IV,AIP,hospital_mortality,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+T3,21,117,MIMIC-IV,AIP,hospital_mortality,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+T3,28,64,MIMIC-IV,AIP,hospital_mortality,Index-hospitalization mortality,formal,In-hospital death · sHR,MIMIC-IV
+T1,0,1020,MIMIC-IV,AIP,mortality_28d,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+T1,7,925,MIMIC-IV,AIP,mortality_28d,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+T1,14,888,MIMIC-IV,AIP,mortality_28d,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+T1,21,875,MIMIC-IV,AIP,mortality_28d,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+T1,28,865,MIMIC-IV,AIP,mortality_28d,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+T2,0,1017,MIMIC-IV,AIP,mortality_28d,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+T2,7,957,MIMIC-IV,AIP,mortality_28d,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+T2,14,916,MIMIC-IV,AIP,mortality_28d,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+T2,21,895,MIMIC-IV,AIP,mortality_28d,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+T2,28,877,MIMIC-IV,AIP,mortality_28d,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+T3,0,1019,MIMIC-IV,AIP,mortality_28d,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+T3,7,936,MIMIC-IV,AIP,mortality_28d,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+T3,14,895,MIMIC-IV,AIP,mortality_28d,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+T3,21,877,MIMIC-IV,AIP,mortality_28d,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+T3,28,863,MIMIC-IV,AIP,mortality_28d,28-day all-cause mortality,formal,28-day death · HR,MIMIC-IV
+T1,0,1020,MIMIC-IV,AIP,icu_mortality,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+T1,7,150,MIMIC-IV,AIP,icu_mortality,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+T1,14,38,MIMIC-IV,AIP,icu_mortality,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+T1,21,17,MIMIC-IV,AIP,icu_mortality,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+T1,28,8,MIMIC-IV,AIP,icu_mortality,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+T2,0,1017,MIMIC-IV,AIP,icu_mortality,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+T2,7,192,MIMIC-IV,AIP,icu_mortality,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+T2,14,58,MIMIC-IV,AIP,icu_mortality,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+T2,21,20,MIMIC-IV,AIP,icu_mortality,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+T2,28,10,MIMIC-IV,AIP,icu_mortality,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+T3,0,1019,MIMIC-IV,AIP,icu_mortality,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+T3,7,196,MIMIC-IV,AIP,icu_mortality,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+T3,14,73,MIMIC-IV,AIP,icu_mortality,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+T3,21,31,MIMIC-IV,AIP,icu_mortality,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
+T3,28,12,MIMIC-IV,AIP,icu_mortality,First-ICU-stay mortality,formal,First ICU death · sHR,MIMIC-IV
