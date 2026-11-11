@@ -22,7 +22,7 @@ The first recorded ICU stay is selected for each patient before applying eligibi
 - **Supporting analyses:** restricted cubic splines, cumulative incidence and Kaplan–Meier curves, ROC curves and paired DeLong comparisons, severity-score extensions, repeated cross-validation, and patient-bootstrap uncertainty.
 - **Sensitivity analyses:** alternative laboratory summaries, a 24-hour landmark origin, selected comorbidity exclusions, and exploratory subgroup analyses.
 
-Formal adjustment variables are complete in the final cohorts, so the current regression analyses do not use multiple imputation. Existing M5/M20 result filenames are compatibility labels; `m=0` and `maxit=0` identify the actual complete-covariate analysis.
+Formal adjustment variables are complete in the final cohorts, so the current regression analyses do not use multiple imputation.
 
 SHR was positively associated with mortality across the three cohorts. In MIMIC-IV, it showed higher standalone mortality discrimination than TyG and AIP and increased cross-validated AUC when added to established severity scores. Exact estimates and uncertainty are available in the [aggregate results](results/analysis/) and [figure source data](deliverables/figures/source_data/).
 
@@ -124,4 +124,4 @@ python src/validation/01_validate_public.py
 
 ## Data and manuscript availability
 
-The public repository distributes code, non-identifying aggregate results, and figure sources. Patient-level inputs remain subject to the respective database access agreements and are excluded from Git. The authors' local workspace additionally contains the Word manuscript, supplementary document, reviewer responses, native citation workflow, and historical archives; these files are not distributed in this repository.
+The public repository distributes code, non-identifying aggregate results, and figure sources. Patient-level inputs remain subject to the respective database access agreements and are excluded from Git.
