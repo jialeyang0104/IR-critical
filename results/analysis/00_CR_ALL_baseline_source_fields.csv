@@ -1,0 +1,145 @@
+"cohort","variable","source_field","source_available"
+"MIMIC-IV","gcs","gcs_min",TRUE
+"MIMIC-IV","sirs","sirs",TRUE
+"MIMIC-IV","HR","heart_rate_mean",TRUE
+"MIMIC-IV","RR","resp_rate_mean",TRUE
+"MIMIC-IV","MBP","mbp_mean",TRUE
+"MIMIC-IV","Tm","temperature_mean",TRUE
+"MIMIC-IV","WBC","wbc_mean",TRUE
+"MIMIC-IV","PLT","platelets_mean",TRUE
+"MIMIC-IV","Hb","hemoglobin_mean",TRUE
+"MIMIC-IV","BUN","bun_mean",TRUE
+"MIMIC-IV","Scr","creatinine_mean",TRUE
+"MIMIC-IV","Na","sodium_mean",TRUE
+"MIMIC-IV","K","potassium_mean",TRUE
+"MIMIC-IV","INR","inr_mean",TRUE
+"MIMIC-IV","PT","pt_mean",TRUE
+"MIMIC-IV","ALT","alt_mean",TRUE
+"MIMIC-IV","AST","ast_mean",TRUE
+"MIMIC-IV","Glucocorticoids","glucocorticoids_1d",TRUE
+"MIMIC-IV","Vasopressors","vasopressor",TRUE
+"MIMIC-IV","Ventilation","ventilation",TRUE
+"MIMIC-IV","Hypertension","hypertension",TRUE
+"MIMIC-IV","MI","myocardial_infarct",TRUE
+"MIMIC-IV","CHF","congestive_heart_failure",TRUE
+"MIMIC-IV","CPD","chronic_pulmonary_disease",TRUE
+"MIMIC-IV","liver_failure","liver_failure",TRUE
+"MIMIC-IV","renal_failure","renal_failure",TRUE
+"MIMIC-IV","longterm_insulin","longterm_insulin",TRUE
+"MIMIC-IV","longterm_antidiabetics","longterm_antidiabetics",TRUE
+"MIMIC-IV","sapsii","sapsii",TRUE
+"MIMIC-IV","apsiii","apsiii",TRUE
+"MIMIC-IV","oasis","oasis",TRUE
+"MIMIC-IV","hospital_outcome","hospital_outcome",TRUE
+"MIMIC-IV","outcome_28d","mortality_28d",TRUE
+"MIMIC-IV","icu_outcome","icu_outcome",TRUE
+"MIMIC-IV","gender","gender or sex; mapped to male indicator",TRUE
+"MIMIC-IV","age","age or admission_age; deidentified elderly ages coded as 90",TRUE
+"MIMIC-IV","los_hospital","dischtime minus admittime; exact days",TRUE
+"MIMIC-IV","los_icu","icu_outtime minus icu_intime; exact days",TRUE
+"MIMIC-IV","sofa","sofa or sofa_score; unchanged formal cohort value",TRUE
+"MIMIC-IV","charlson","charlson_comorbidity_index",TRUE
+"MIMIC-IV","Diabetes","diabetes or icd_diabetes",TRUE
+"MIMIC-IV","TG","tg, triglycerides, or first_day_triglycerides_mean",TRUE
+"MIMIC-IV","Glucose","glucose or first_day_glucose_mean",TRUE
+"MIMIC-IV","HbA1c","hba1c or first_day_hba1c_mean",TRUE
+"MIMIC-IV","HDL","hdl or first_day_hdl_mean",TRUE
+"MIMIC-IV","TyG","ln(TG * glucose / 2)",TRUE
+"MIMIC-IV","SHR","glucose / (28.7 * HbA1c - 46.7)",TRUE
+"MIMIC-IV","AIP","log10((TG / 88.57) / (HDL / 38.67))",TRUE
+"MIMIC-III","gcs","mingcs",TRUE
+"MIMIC-III","sirs","sirs",TRUE
+"MIMIC-III","HR","heart_rate_mean",TRUE
+"MIMIC-III","RR","resp_rate_mean",TRUE
+"MIMIC-III","MBP","mbp_mean",TRUE
+"MIMIC-III","Tm","temperature_mean",TRUE
+"MIMIC-III","WBC","wbc_mean",TRUE
+"MIMIC-III","PLT","platelets_mean",TRUE
+"MIMIC-III","Hb","hemoglobin_mean",TRUE
+"MIMIC-III","BUN","bun_mean",TRUE
+"MIMIC-III","Scr","creatinine_mean",TRUE
+"MIMIC-III","Na","sodium_mean",TRUE
+"MIMIC-III","K","potassium_mean",TRUE
+"MIMIC-III","INR","inr_mean",TRUE
+"MIMIC-III","PT","pt_mean",TRUE
+"MIMIC-III","ALT","alt_mean",TRUE
+"MIMIC-III","AST","ast_mean",TRUE
+"MIMIC-III","Glucocorticoids","glucocorticoids_1d",TRUE
+"MIMIC-III","Vasopressors","vasopressor_day1",TRUE
+"MIMIC-III","Ventilation","ventilation_day1",TRUE
+"MIMIC-III","Hypertension","icd_hypertension",TRUE
+"MIMIC-III","MI","myocardial_infarct",TRUE
+"MIMIC-III","CHF","congestive_heart_failure",TRUE
+"MIMIC-III","CPD","chronic_pulmonary_disease",TRUE
+"MIMIC-III","liver_failure","liver_failure",TRUE
+"MIMIC-III","renal_failure","renal_failure",TRUE
+"MIMIC-III","longterm_insulin","longterm_insulin",TRUE
+"MIMIC-III","longterm_antidiabetics","longterm_antidiabetics",TRUE
+"MIMIC-III","sapsii","sapsii",TRUE
+"MIMIC-III","apsiii","apsiii",TRUE
+"MIMIC-III","oasis","oasis",TRUE
+"MIMIC-III","hospital_outcome","hospital_outcome",TRUE
+"MIMIC-III","outcome_28d","outcome_28d",TRUE
+"MIMIC-III","icu_outcome","icu_outcome",TRUE
+"MIMIC-III","gender","gender or sex; mapped to male indicator",TRUE
+"MIMIC-III","age","age or admission_age; deidentified elderly ages coded as 90",TRUE
+"MIMIC-III","los_hospital","dischtime minus admittime; exact days",TRUE
+"MIMIC-III","los_icu","icu_outtime minus icu_intime; exact days",TRUE
+"MIMIC-III","sofa","sofa or sofa_score; unchanged formal cohort value",TRUE
+"MIMIC-III","charlson","charlson_comorbidity_index",TRUE
+"MIMIC-III","Diabetes","diabetes or icd_diabetes",TRUE
+"MIMIC-III","TG","tg, triglycerides, or first_day_triglycerides_mean",TRUE
+"MIMIC-III","Glucose","glucose or first_day_glucose_mean",TRUE
+"MIMIC-III","HbA1c","hba1c or first_day_hba1c_mean",TRUE
+"MIMIC-III","HDL","hdl or first_day_hdl_mean",TRUE
+"MIMIC-III","TyG","ln(TG * glucose / 2)",TRUE
+"MIMIC-III","SHR","glucose / (28.7 * HbA1c - 46.7)",TRUE
+"MIMIC-III","AIP","log10((TG / 88.57) / (HDL / 38.67))",TRUE
+"NWICU","gcs","gcs_min",TRUE
+"NWICU","sirs","sirs",TRUE
+"NWICU","HR","heart_rate_mean",TRUE
+"NWICU","RR","resp_rate_mean",TRUE
+"NWICU","MBP","mbp_mean",TRUE
+"NWICU","Tm","temperature_mean",TRUE
+"NWICU","WBC","wbc_mean",TRUE
+"NWICU","PLT","platelets_mean",TRUE
+"NWICU","Hb","hemoglobin_mean",TRUE
+"NWICU","BUN","bun_mean",TRUE
+"NWICU","Scr","creatinine_mean",TRUE
+"NWICU","Na","sodium_mean",TRUE
+"NWICU","K","potassium_mean",TRUE
+"NWICU","INR","inr_mean",TRUE
+"NWICU","PT","pt_mean",TRUE
+"NWICU","ALT","alt_mean",TRUE
+"NWICU","AST","ast_mean",TRUE
+"NWICU","Glucocorticoids","glucocorticoids_1d",TRUE
+"NWICU","Vasopressors","vasopressor_day1",TRUE
+"NWICU","Ventilation","ventilation_day1",TRUE
+"NWICU","Hypertension","hypertension",TRUE
+"NWICU","MI","myocardial_infarct",TRUE
+"NWICU","CHF","congestive_heart_failure",TRUE
+"NWICU","CPD","chronic_pulmonary_disease",TRUE
+"NWICU","liver_failure","charlson_mild_liver_disease or charlson_severe_liver_disease",TRUE
+"NWICU","renal_failure","charlson_renal_disease",TRUE
+"NWICU","longterm_insulin","longterm_insulin",TRUE
+"NWICU","longterm_antidiabetics","longterm_antidiabetics",TRUE
+"NWICU","sapsii","",FALSE
+"NWICU","apsiii","",FALSE
+"NWICU","oasis","",FALSE
+"NWICU","hospital_outcome","hospital_outcome",TRUE
+"NWICU","outcome_28d","outcome_28d",TRUE
+"NWICU","icu_outcome","icu_outcome",TRUE
+"NWICU","gender","gender or sex; mapped to male indicator",TRUE
+"NWICU","age","age or admission_age; deidentified elderly ages coded as 90",TRUE
+"NWICU","los_hospital","dischtime minus admittime; exact days",TRUE
+"NWICU","los_icu","icu_outtime minus icu_intime; exact days",TRUE
+"NWICU","sofa","sofa or sofa_score; unchanged formal cohort value",TRUE
+"NWICU","charlson","charlson_comorbidity_index",TRUE
+"NWICU","Diabetes","diabetes or icd_diabetes",TRUE
+"NWICU","TG","tg, triglycerides, or first_day_triglycerides_mean",TRUE
+"NWICU","Glucose","glucose or first_day_glucose_mean",TRUE
+"NWICU","HbA1c","hba1c or first_day_hba1c_mean",TRUE
+"NWICU","HDL","hdl or first_day_hdl_mean",TRUE
+"NWICU","TyG","ln(TG * glucose / 2)",TRUE
+"NWICU","SHR","glucose / (28.7 * HbA1c - 46.7)",TRUE
+"NWICU","AIP","log10((TG / 88.57) / (HDL / 38.67))",TRUE

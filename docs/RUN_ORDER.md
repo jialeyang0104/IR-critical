@@ -41,6 +41,7 @@ Use the software versions recorded in `reports/reproducibility/*session.txt`. Py
 export CR="$IR_REVISION_ROOT/src/analysis"
 python "$CR/01_prepare_inputs.py"
 python "$CR/02_audit_durations.py"
+python "$IR_REVISION_ROOT/src/extraction/01_extract_baseline.py"
 for script in 03_descriptives.R 04_primary_models.R   06_sensitivities.R 07_supporting_models.R   08_event_time_audit.R 09_review_analyses.R; do
   Rscript "$CR/$script"
 done
@@ -50,6 +51,12 @@ python "$CR/12_build_figures.py"
 ```
 
 For a flowchart-only update use `python "$CR/13_build_flowchart.py"`; it checks all 15 sequential count differences and writes the figure plus both source CSVs. For a subgroup-only update use `Rscript "$CR/05_subgroups.R"` followed by `python "$CR/14_build_subgroup_figure.py"`.
+
+For the NWICU recorded 28-day mortality forest only, run `python "$CR/12_build_figures.py" --only nwicu-recorded-28d`. It produces Figure S2 with the display labels “Admission origin” and “24h landmark” from the unchanged aggregate estimates.
+
+For the three-cohort tertile forest only, run `python "$CR/12_build_figures.py" --only primary-tertiles`. Figure S1 contains 144 T2/T1 and T3/T1 estimates across Models 1–3, distinct from the 72 per-unit estimates in Figure 2. Table S6 uses the same three primary regression CSVs, including per-unit, tertile contrasts, and separate ordinal trend models (288 rows). The exploratory NWICU recorded 28-day endpoint remains separate in Figure S2 and Table S7.
+
+For a baseline-only update, run `python src/extraction/01_extract_baseline.py`, then `Rscript src/analysis/03_descriptives.R` and `python src/validation/03_validate_baseline_tables.py`. Reuse the restricted baseline supplements when the inputs and field definitions have not changed. The read-only extraction adds MIMIC-III and NWICU baseline supplements under `data/restricted/` and leaves the formal regression inputs unchanged. Table 1 compares the three final cohorts, Table S2 uses the same 42 variables, and Table S3 compares included and laboratory-excluded patients within each cohort. Table S4 compares MIMIC-IV hospital survivors (n=2,735) with non-survivors (n=321), including the overall cohort, all 42 baseline variables, and P values. Current sources are `00_CR_ALL_table1_observed_baseline.csv`, `00_CR_ALL_Table1_variable_missingness.csv`, `00_CR_ALL_included_excluded_comparison.csv`, and `00_CR_M4_survivor_nonsurvivor_baseline.csv`. The older `00_CR_M4_table1_observed_baseline.csv` is historical and is no longer a manuscript-table input.
 
 ## 4. Validate the distributed snapshot
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Figure S12: all 54 subgroup effects on the same cohort-SD scale.
+"""Figure S10: all 54 subgroup effects on the same cohort-SD scale.
 
 The 3 x 3 grid compares three metabolic indices across three mortality
 outcomes. Points and 95% confidence intervals describe each age, sex and
@@ -29,7 +29,7 @@ sg = pd.read_csv(C / 'results/analysis/05_CR_M4_AO_M5_exploratory_subgroups.csv'
 assert len(sg) == 54 and sg.exposure_scale.eq('per_sd').all()
 assert (sg[['estimate', 'conf_low', 'conf_high']] > 0).all().all()
 assert sg.groupby('exposure').index_sd.nunique().eq(1).all()
-sg.to_csv(S / 'FigureS12_Subgroup_source.csv', index=False)
+sg.to_csv(S / 'FigureS10_Subgroup_source.csv', index=False)
 interactions = pd.read_csv(C / 'results/analysis/05_CR_M4_AO_subgroup_interactions.csv')
 interactions.to_csv(S / 'FigureS10_Interaction_source.csv', index=False)
 exposures = ['SHR', 'TyG', 'AIP']

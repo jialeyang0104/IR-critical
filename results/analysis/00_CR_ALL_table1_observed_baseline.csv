@@ -1,0 +1,43 @@
+"variable","label","type","MIMICIV","MIMICIII","NWICU","p_value","p_display","comparison_test","comparison_scope","MIMICIV_n","MIMICIII_n","NWICU_n"
+"gender","Male sex, n (%)","binary","1660 (54.3%)","706 (62.3%)","920 (59.1%)",4.09466138057179e-06,"<0.001","Pearson chi-square","MIMIC-IV;MIMIC-III;NWICU",3056,1133,1556
+"age","Age (years)","continuous","70.3 (59.3–81.5)","67.0 (57.0–79.0)","66.0 (55.0–76.0)",7.81659069465844e-22,"<0.001","Kruskal-Wallis","MIMIC-IV;MIMIC-III;NWICU",3056,1133,1556
+"los_hospital","Hospital length of stay (days)","continuous","6.4 (3.6–12.0)","5.9 (3.7–10.1)","4.7 (2.6–8.8)",4.47912419073459e-34,"<0.001","Kruskal-Wallis","MIMIC-IV;MIMIC-III;NWICU",3056,1133,1556
+"los_icu","ICU length of stay (days)","continuous","2.9 (1.8–5.5)","2.2 (1.5–4.3)","2.3 (1.6–3.9)",3.01972951537327e-21,"<0.001","Kruskal-Wallis","MIMIC-IV;MIMIC-III;NWICU",3056,1133,1556
+"sofa","SOFA","continuous","2.0 (1.0–4.0)","2.0 (1.0–4.0)","1.0 (0.0–2.0)",2.98337064830237e-176,"<0.001","Kruskal-Wallis","MIMIC-IV;MIMIC-III;NWICU",3056,1133,1556
+"gcs","GCS","continuous","14.0 (13.0–15.0)","15.0 (13.0–15.0)","NA",1.03532415515349e-10,"<0.001","Mann-Whitney U","MIMIC-IV;MIMIC-III",3056,1133,1556
+"charlson","Charlson comorbidity index","continuous","6.0 (4.0–8.0)","5.0 (3.0–6.0)","3.0 (2.0–4.0)",1.30390055645132e-211,"<0.001","Kruskal-Wallis","MIMIC-IV;MIMIC-III;NWICU",3056,1133,1556
+"sirs","SIRS","continuous","2.0 (2.0–3.0)","2.0 (2.0–3.0)","1.0 (0.0–2.0)",7.0974262417905e-150,"<0.001","Kruskal-Wallis","MIMIC-IV;MIMIC-III;NWICU",3056,1133,1556
+"HR","Heart rate (beats/min)","continuous","78.0 (69.0–88.7)","76.6 (68.2–87.2)","78.1 (69.8–89.6)",0.0179970387708696,"0.018","Kruskal-Wallis","MIMIC-IV;MIMIC-III;NWICU",3056,1133,1556
+"RR","Respiratory rate (breaths/min)","continuous","18.4 (16.8–20.6)","18.0 (16.4–20.2)","19.1 (17.3–21.9)",4.52991751096578e-16,"<0.001","Kruskal-Wallis","MIMIC-IV;MIMIC-III;NWICU",3056,1133,1556
+"MBP","Mean blood pressure (mmHg)","continuous","87.4 (79.3–95.8)","83.2 (75.4–91.0)","93.8 (85.1–102.0)",6.31537310848461e-75,"<0.001","Kruskal-Wallis","MIMIC-IV;MIMIC-III;NWICU",3056,1133,1556
+"Tm","Temperature (°C)","continuous","36.9 (36.7–37.1)","36.8 (36.5–37.1)","36.8 (36.7–37.0)",4.12980623372407e-17,"<0.001","Kruskal-Wallis","MIMIC-IV;MIMIC-III;NWICU",3056,1133,1556
+"WBC","WBC (10^9/L)","continuous","9.8 (7.6–12.6)","10.6 (8.3–13.1)","9.5 (7.5–12.2)",5.36264776990903e-11,"<0.001","Kruskal-Wallis","MIMIC-IV;MIMIC-III;NWICU",3056,1133,1556
+"PLT","PLT (10^9/L)","continuous","211.0 (170.0–261.0)","229.5 (183.3–280.9)","225.8 (182.2–274.0)",5.31052901163558e-16,"<0.001","Kruskal-Wallis","MIMIC-IV;MIMIC-III;NWICU",3056,1133,1556
+"Hb","Hb (g/dL)","continuous","12.4 (11.0–13.7)","12.7 (11.3–13.9)","13.2 (11.6–14.4)",4.13778763343403e-28,"<0.001","Kruskal-Wallis","MIMIC-IV;MIMIC-III;NWICU",3056,1133,1556
+"BUN","BUN (mg/dL)","continuous","16.2 (12.0–23.0)","17.8 (13.5–24.2)","17.0 (13.0–24.0)",8.31591733788208e-07,"<0.001","Kruskal-Wallis","MIMIC-IV;MIMIC-III;NWICU",3056,1133,1556
+"Scr","Scr (mg/dL)","continuous","0.9 (0.7–1.2)","0.9 (0.8–1.2)","1.0 (0.8–1.2)",4.69616671740697e-12,"<0.001","Kruskal-Wallis","MIMIC-IV;MIMIC-III;NWICU",3056,1133,1556
+"Na","Na (mmol/L)","continuous","139.0 (137.0–141.5)","139.0 (137.0–141.0)","138.5 (136.0–140.5)",5.15841648688977e-19,"<0.001","Kruskal-Wallis","MIMIC-IV;MIMIC-III;NWICU",3056,1133,1556
+"K","K (mmol/L)","continuous","4.0 (3.7–4.3)","4.0 (3.8–4.3)","4.0 (3.7–4.2)",4.36896414509658e-06,"<0.001","Kruskal-Wallis","MIMIC-IV;MIMIC-III;NWICU",3056,1133,1556
+"INR","INR","continuous","1.1 (1.1–1.3)","1.1 (1.1–1.3)","NA",0.49915436987375,"0.499","Mann-Whitney U","MIMIC-IV;MIMIC-III",3056,1133,1556
+"PT","PT (s)","continuous","12.6 (11.7–13.9)","13.3 (12.6–14.4)","12.3 (11.4–13.7)",1.15092650361468e-48,"<0.001","Kruskal-Wallis","MIMIC-IV;MIMIC-III;NWICU",3056,1133,1556
+"ALT","ALT (IU/L)","continuous","20.0 (14.0–34.0)","24.0 (16.0–41.2)","24.0 (15.5–37.0)",3.70677726864808e-12,"<0.001","Kruskal-Wallis","MIMIC-IV;MIMIC-III;NWICU",3056,1133,1556
+"AST","AST (IU/L)","continuous","25.0 (18.0–44.0)","30.0 (21.0–67.8)","24.0 (17.5–43.0)",2.00280432055506e-15,"<0.001","Kruskal-Wallis","MIMIC-IV;MIMIC-III;NWICU",3056,1133,1556
+"TG","TG (mg/dL)","continuous","100.0 (73.0–141.0)","109.0 (77.0–158.5)","105.0 (74.0–151.0)",6.13157680322499e-05,"<0.001","Kruskal-Wallis","MIMIC-IV;MIMIC-III;NWICU",3056,1133,1556
+"Glucose","Glucose (mg/dL)","continuous","123.0 (103.2–152.8)","134.0 (115.0–165.0)","132.5 (110.5–170.0)",6.92029388818134e-29,"<0.001","Kruskal-Wallis","MIMIC-IV;MIMIC-III;NWICU",3056,1133,1556
+"HbA1c","HbA1c (%)","continuous","5.7 (5.4–6.3)","5.9 (5.6–6.5)","5.9 (5.5–6.7)",9.81274730265095e-19,"<0.001","Kruskal-Wallis","MIMIC-IV;MIMIC-III;NWICU",3056,1133,1556
+"HDL","HDL-C (mg/dL)","continuous","46.0 (37.0–58.0)","44.0 (36.0–54.0)","42.0 (33.0–52.0)",9.75522869538369e-24,"<0.001","Kruskal-Wallis","MIMIC-IV;MIMIC-III;NWICU",3056,1133,1556
+"Glucocorticoids","Glucocorticoids, n (%)","binary","184 (6.0%)","69 (6.1%)","126 (8.1%)",0.0201879029781188,"0.020","Pearson chi-square","MIMIC-IV;MIMIC-III;NWICU",3056,1133,1556
+"Vasopressors","Vasopressors, n (%)","binary","310 (10.1%)","195 (17.2%)","142 (9.1%)",8.22115166894333e-12,"<0.001","Pearson chi-square","MIMIC-IV;MIMIC-III;NWICU",3056,1133,1556
+"Ventilation","Mechanical ventilation, n (%)","binary","1785 (58.4%)","366 (32.3%)","256 (16.5%)",3.22269773258734e-174,"<0.001","Pearson chi-square","MIMIC-IV;MIMIC-III;NWICU",3056,1133,1556
+"Hypertension","Hypertension, n (%)","binary","1918 (62.8%)","815 (71.9%)","321 (20.8%)",1.15444570327389e-201,"<0.001","Pearson chi-square","MIMIC-IV;MIMIC-III;NWICU",3056,1133,1556
+"MI","MI, n (%)","binary","769 (25.2%)","487 (43.0%)","315 (20.2%)",3.5638376338097e-41,"<0.001","Pearson chi-square","MIMIC-IV;MIMIC-III;NWICU",3056,1133,1556
+"CHF","CHF, n (%)","binary","799 (26.1%)","341 (30.1%)","171 (11.0%)",3.86201417613508e-39,"<0.001","Pearson chi-square","MIMIC-IV;MIMIC-III;NWICU",3056,1133,1556
+"CPD","CPD, n (%)","binary","492 (16.1%)","215 (19.0%)","55 (3.5%)",3.83290101544301e-40,"<0.001","Pearson chi-square","MIMIC-IV;MIMIC-III;NWICU",3056,1133,1556
+"Diabetes","Diabetes, n (%)","binary","904 (29.6%)","362 (32.0%)","227 (14.6%)",1.48289199339674e-32,"<0.001","Pearson chi-square","MIMIC-IV;MIMIC-III;NWICU",3056,1133,1556
+"liver_failure","Liver failure, n (%)","binary","82 (2.7%)","37 (3.3%)","18 (1.2%)",0.000546031736616,"<0.001","Pearson chi-square","MIMIC-IV;MIMIC-III;NWICU",3056,1133,1556
+"renal_failure","Renal failure, n (%)","binary","485 (15.9%)","234 (20.7%)","77 (4.9%)",5.75830716257171e-35,"<0.001","Pearson chi-square","MIMIC-IV;MIMIC-III;NWICU",3056,1133,1556
+"longterm_insulin","Long-term use of insulin, n (%)","binary","267 (8.7%)","55 (4.9%)","42 (2.7%)",1.81187905458885e-15,"<0.001","Pearson chi-square","MIMIC-IV;MIMIC-III;NWICU",3056,1133,1556
+"longterm_antidiabetics","Long-term use of antidiabetics, n (%)","binary","56 (1.8%)","NA","0 (0.0%)",8.5432813641714e-08,"<0.001","Pearson chi-square","MIMIC-IV;NWICU",3056,1133,1556
+"TyG","TyG","continuous","8.7 (8.4–9.2)","8.9 (8.5–9.4)","8.9 (8.4–9.3)",1.80332599345205e-16,"<0.001","Kruskal-Wallis","MIMIC-IV;MIMIC-III;NWICU",3056,1133,1556
+"SHR","SHR","continuous","1.0 (0.9–1.2)","1.1 (0.9–1.2)","1.1 (0.9–1.2)",8.25191161261804e-10,"<0.001","Kruskal-Wallis","MIMIC-IV;MIMIC-III;NWICU",3056,1133,1556
+"AIP","AIP","continuous","-0.02 (-0.23–0.20)","0.04 (-0.16–0.25)","0.05 (-0.17–0.26)",5.31718262509459e-13,"<0.001","Kruskal-Wallis","MIMIC-IV;MIMIC-III;NWICU",3056,1133,1556

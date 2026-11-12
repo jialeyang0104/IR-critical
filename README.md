@@ -24,6 +24,8 @@ The first recorded ICU stay is selected for each patient before applying eligibi
 
 Formal adjustment variables are complete in the final cohorts, so the current regression analyses do not use multiple imputation.
 
+Table 1 presents the observed baseline characteristics of all three final cohorts, with between-cohort P values. Supplementary Table S2 reports missingness for exactly those 42 variables, and Table S3 provides three panels of included-versus-laboratory-excluded comparisons with P values. Table S4 reports the same 42 variables for the overall MIMIC-IV cohort and by in-hospital survival status (2,735 survivors and 321 non-survivors), with between-group P values. These tables use observed values without imputation. The three-cohort sources have the `00_CR_ALL_` prefix in [`results/analysis/`](results/analysis/); the survival-status source is [`00_CR_M4_survivor_nonsurvivor_baseline.csv`](results/analysis/00_CR_M4_survivor_nonsurvivor_baseline.csv). Source availability and field mappings are supplied alongside them.
+
 SHR was positively associated with mortality across the three cohorts. In MIMIC-IV, it showed higher standalone mortality discrimination than TyG and AIP and increased cross-validated AUC when added to established severity scores. Exact estimates and uncertainty are available in the [aggregate results](results/analysis/) and [figure source data](deliverables/figures/source_data/).
 
 ## Repository contents
@@ -42,7 +44,11 @@ SHR was positively associated with mortality across the three cohorts. In MIMIC-
 | [`docs/RUN_ORDER.md`](docs/RUN_ORDER.md) | Full extraction and execution commands |
 | [`docs/INPUT_DICTIONARY.md`](docs/INPUT_DICTIONARY.md) | Restricted input fields, units, endpoint definitions, and database prerequisites |
 
-The [table–result–figure mapping](results/analysis/10_CR_table_result_figure_mapping.csv) identifies the sources for the 15 supplementary tables. Some additional aggregates document historical or supporting calculations; the mapping distinguishes the current manuscript tables.
+The [table–result–figure mapping](results/analysis/10_CR_table_result_figure_mapping.csv) identifies the sources for the 16 supplementary tables. Some additional aggregates document historical or supporting calculations; the mapping distinguishes the current manuscript tables.
+
+Figure 2 presents per-unit associations across the three cohorts and Models 1–3. Supplementary Figure S1 presents cohort-specific tertile contrasts (T2/T1 and T3/T1), rather than duplicating those continuous-index estimates. Table S6 reports both scales and separate ordinal trend models. Baseline continuous-variable comparisons use Kruskal–Wallis tests across three cohorts or Mann–Whitney U tests when only two cohorts have observed data; categorical comparisons use Pearson chi-square or Fisher exact tests when any expected cell count is below five.
+
+Supplementary figures follow their first main-text citation: S1, three-cohort tertile associations; S2, exploratory NWICU recorded 28-day mortality; S3, 24-hour landmark; S4–S6, alternative laboratory timing; S7–S9, comorbidity exclusions; S10, subgroup associations.
 
 ## Reproduce the article
 
@@ -89,6 +95,7 @@ export CR="$IR_REVISION_ROOT/src/analysis"
 
 python "$CR/01_prepare_inputs.py"
 python "$CR/02_audit_durations.py"
+python "$IR_REVISION_ROOT/src/extraction/01_extract_baseline.py"
 
 for script in \
   03_descriptives.R \

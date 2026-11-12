@@ -1,16 +1,17 @@
 table,title,source,rows
 S1,Index SDs and tertile cutoffs,11_CR_index_scales_tertiles.csv,9
-S2,Observed missingness and formal covariates,00_CR_M4_Table1_variable_missingness.csv;00_CR_covariate_missingness.csv,42
-S3,Included and excluded MIMIC-IV patients,00_CR_M4_included_excluded_comparison.csv,48
-S4,"Admission type, ICU unit and diagnosis distributions",11_CR_admission_unit_diagnosis_selection.csv,86
-S5,Primary per-unit associations,01_CR_*_AO_M5_regression_results.csv,72
-S6,Exploratory NWICU recorded 28-day mortality,01_CR_NW_AO_M5_regression_results.csv,9
-S7,Spline tests,03_CR_ALL_AO_M5_rcs_source_data.csv,24
-S8,Absolute cumulative incidence,04_CR_ALL_AO_CIF_7_14_28_days.csv,162
-S9,Standalone AUC and paired DeLong tests,01_PSA_M4_AO_NA_ALL_roc_auc.csv;01_PSA_M4_AO_NA_ALL_delong.csv,18
-S10,Incremental discrimination and paired increment contrasts,12_CR_patient_bootstrap_CV_increments.csv;12_CR_paired_CV_increment_contrasts.csv,60
-S11,SHR and component-model discrimination,08_PSA_M4_AO_NA_SHR_component_cv_auc.csv,9
-S12,Laboratory timing per-SD sensitivity,06_CR_*_lab_timing_results.csv,72
-S13,Comorbidity exclusions,07_CR_ALL_AO_M5_exclusion_results.csv,90
-S14,24-hour origin check,01_CR_*_L24_M5_regression_results.csv,24
-S15,Subgroup associations and interaction tests,05_CR_M4_AO_M5_exploratory_subgroups.csv;05_CR_M4_AO_subgroup_interactions.csv,27
+S2,Observed missingness across the three cohorts,00_CR_ALL_Table1_variable_missingness.csv,42
+S3,Included and excluded patients across the three cohorts,00_CR_ALL_included_excluded_comparison.csv;00_CR_ALL_included_excluded_counts.csv,147
+S4,MIMIC-IV baseline characteristics by in-hospital survival status,00_CR_M4_survivor_nonsurvivor_baseline.csv,42
+S5,"Admission type, ICU unit and diagnosis distributions",11_CR_admission_unit_diagnosis_selection.csv,86
+S6,Primary continuous and tertile associations,01_CR_*_AO_M5_regression_results.csv,288
+S7,Exploratory NWICU recorded 28-day mortality,01_CR_NW_AO_M5_regression_results.csv,9
+S8,Spline tests,03_CR_ALL_AO_M5_rcs_source_data.csv,24
+S9,Absolute cumulative incidence,04_CR_ALL_AO_CIF_7_14_28_days.csv,162
+S10,Standalone AUC and paired DeLong tests,01_PSA_M4_AO_NA_ALL_roc_auc.csv;01_PSA_M4_AO_NA_ALL_delong.csv,18
+S11,Incremental discrimination and paired increment contrasts,12_CR_patient_bootstrap_CV_increments.csv;12_CR_paired_CV_increment_contrasts.csv,60
+S12,SHR and component-model discrimination,08_PSA_M4_AO_NA_SHR_component_cv_auc.csv,9
+S13,Laboratory timing per-SD sensitivity,06_CR_*_lab_timing_results.csv,72
+S14,Comorbidity exclusions,07_CR_ALL_AO_M5_exclusion_results.csv,90
+S15,24-hour origin check,01_CR_*_L24_M5_regression_results.csv,24
+S16,Subgroup associations and interaction tests,05_CR_M4_AO_M5_exploratory_subgroups.csv;05_CR_M4_AO_subgroup_interactions.csv,27

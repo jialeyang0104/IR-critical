@@ -3,6 +3,7 @@ from pathlib import Path
 import subprocess,csv,hashlib
 R=Path(__file__).resolve().parents[2]
 files=subprocess.check_output(['git','ls-files','--cached','--others','--exclude-standard','-z'],cwd=R).decode().split('\0')[:-1]
+files=[n for n in files if (R/n).is_file()]
 manifest=R/'reports/reproducibility/FILE_MANIFEST.csv';check=R/'reports/reproducibility/CHECKSUMS.sha256'
 with manifest.open('w',newline='')as f:
  w=csv.writer(f,lineterminator='\n');w.writerow(['path','bytes']);w.writerows((n,(R/n).stat().st_size)for n in files if R/n not in {manifest,check})

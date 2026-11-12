@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """竞争风险修订图形。沿用项目Python样式；CIF/KM的统计坐标由R生成。"""
 from pathlib import Path
-import os,shutil,importlib.util,runpy
+import os,shutil,importlib.util,runpy,argparse
 import pandas as pd
 import numpy as np
 import matplotlib
@@ -16,9 +16,16 @@ old.FIG=F;old.SRC=S
 mpl.rcParams.update({'font.family':'sans-serif','font.sans-serif':['Arial','Helvetica','Liberation Sans'],
                      'pdf.fonttype':42,'svg.fonttype':'none','savefig.dpi':300})
 def save_cns_figure(fig,filename):
+ if os.environ.get('IR_FIGURE_QA_TOOLS') and filename.name in ['FigureS02_NW_recorded_28d_exploratory','FigureS01_Tertile_all_cohorts']:
+  import sys
+  sys.path.insert(0,os.environ['IR_FIGURE_QA_TOOLS'])
+  from audit_panel_alignment import require_matplotlib_panel_alignment
+  require_matplotlib_panel_alignment(fig,json_out=C/'reports/internal'/f'{filename.name}_alignment.json')
  fig.savefig(f'{filename}.pdf',bbox_inches='tight',dpi=300)
  fig.savefig(f'{filename}.svg',bbox_inches='tight',dpi=300)
  fig.savefig(f'{filename}.png',bbox_inches='tight',dpi=300)
+ if filename.name=='FigureS01_Tertile_all_cohorts':
+  fig.savefig(f'{filename}.tif',bbox_inches='tight',dpi=300,pil_kwargs={'compression':'tiff_lzw'})
 old.save_cns_figure=save_cns_figure
 _original_ticks=old.set_readable_log_ticks
 def ticks_including_null(ax,low,high,**kwargs):
@@ -42,6 +49,38 @@ def forest(a,name,title,cols=('outcome_label',),height=110,model=True,catcol='mo
  old.forest_by_exposure(a,name,title,label_cols=cols,model_colors=model,model_col=catcol,effect_label=ylabel,width=183,height=height)
  manifest.append(name)
 
+def build_nw_recorded_28d():
+ # Keep the recorded-death endpoint separate from formal external replication.
+ nw=[]
+ for job,display in [('AO_M5','Admission origin'),('L24_M5','24h landmark')]:
+  a=load(f'01_CR_NW_{job}_regression_results.csv',formal=False)
+  a=a[a.outcome=='mortality_28d'].copy();a['setting']=display;nw.append(a)
+ forest(pd.concat(nw),'FigureS02_NW_recorded_28d_exploratory',
+        'NWICU · recorded 28-day mortality · exploratory',cols=('setting',),height=135,
+        ylabel='Recorded-death HR (95% CI)')
+
+def build_primary_tertiles():
+ # Distinct from Figure 2: categorical T2/T1 and T3/T1, not per-unit effects.
+ a=pd.concat([load(f'01_CR_{code}_AO_M5_regression_results.csv',scale='tertile') for code in CODE.values()])
+ assert len(a)==144
+ a['outcome_label']=a.outcome.map({'hospital_mortality':'In-hospital','mortality_28d':'28-day','icu_mortality':'First ICU'})
+ a['contrast']=a.term.map({'.tertileT2':'T2 vs T1','.tertileT3':'T3 vs T1'})
+ assert a.contrast.notna().all()
+ forest(a,'FigureS01_Tertile_all_cohorts','Tertile associations across cohorts',
+        cols=('cohort_label','outcome_label','contrast'),height=210,ylabel='Effect ratio (95% CI)')
+
+parser=argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--only',choices=['nwicu-recorded-28d','primary-tertiles'],help='Rebuild one current forest plot')
+args=parser.parse_args()
+if args.only=='primary-tertiles':
+ build_primary_tertiles()
+ print('Updated Figure S1: tertile contrasts across all three cohorts and Models 1–3.')
+ raise SystemExit(0)
+if args.only=='nwicu-recorded-28d':
+ build_nw_recorded_28d()
+ print('Updated Figure S2: admission origin and 24h landmark.')
+ raise SystemExit(0)
+
 runpy.run_path(str(C/'src/analysis/13_build_flowchart.py'), run_name='__main__')
 manifest.append('Figure1_Cohort_flowchart')
 pred=R/'results/prediction/mimiciv'
@@ -64,22 +103,17 @@ for ax,y in zip(axs,Y):
  ax.set_xlabel('ΔAUC (patient bootstrap 95% CI)');ax.set_title(YN[y].split(' · ')[0],fontsize=7)
 axs[0].legend(fontsize=6);fig.tight_layout();save(fig,'Figure6_Incremental_performance')
 
-primary=load('01_CR_M4_AO_M5_regression_results.csv')
-forest(primary,'FigureS01_Primary_MIMICIV','MIMIC-IV mortality associations')
+build_primary_tertiles()
 for i,job,title in [(1,'AO_M5','Primary admission-origin analysis'),(2,'L24_M5','24-hour landmark analysis')]:
  a=pd.concat([load(f'01_CR_{code}_{job}_regression_results.csv') for code in CODE.values()])
- forest(a,'Figure2_All_cohorts' if i==1 else 'FigureS02_L24_M5_all_cohorts',title,cols=('cohort_label','outcome_label'),height=185)
+ forest(a,'Figure2_All_cohorts' if i==1 else 'FigureS03_L24_M5_all_cohorts',title,cols=('cohort_label','outcome_label'),height=185)
 lab=pd.concat([load(f'06_CR_{c}_AO_M5P_ALL_lab_timing_results.csv',scale='per_sd') for c in CODE.values()]);lab['definition']=lab.lab_definition.map({'early_window_mean':'Window mean','first_available':'First available','closest_to_admission':'Closest to ICU'})
 for i,co in enumerate(COH):
- forest(lab[lab.cohort==co],f'FigureS{i+3:02d}_Alternative_lab_{CODE[co]}',co+' · alternative laboratory timing',cols=('definition','outcome_label'),height=185)
+ forest(lab[lab.cohort==co],f'FigureS{i+4:02d}_Alternative_lab_{CODE[co]}',co+' · alternative laboratory timing',cols=('definition','outcome_label'),height=185)
 ex=load('07_CR_ALL_AO_M5_exclusion_results.csv');ex['exclusion_label']=ex.exclusion.str.replace('exclude_','Exclude ').str.replace('_',' ')
 for i,co in enumerate(COH):
- forest(ex[ex.cohort==co],f'FigureS{i+6:02d}_Exclusions_{CODE[co]}',co+' · comorbidity exclusions',cols=('exclusion_label','outcome_label'),height=210,model=False,catcol='exclusion_label')
-# NWICU缺少院外死亡来源，28天记录死亡单列探索性图，不混入正式验证。
-nw=[]
-for job in ['AO_M5','L24_M5']:
- a=load(f'01_CR_NW_{job}_regression_results.csv',formal=False);a=a[a.outcome=='mortality_28d'].copy();a['setting']=job;nw.append(a)
-forest(pd.concat(nw),'FigureS09_NW_recorded_28d_exploratory','NWICU · recorded 28-day mortality · exploratory',cols=('setting',),height=135,ylabel='Recorded-death HR (95% CI)')
+ forest(ex[ex.cohort==co],f'FigureS{i+7:02d}_Exclusions_{CODE[co]}',co+' · comorbidity exclusions',cols=('exclusion_label','outcome_label'),height=210,model=False,catcol='exclusion_label')
+build_nw_recorded_28d()
 
 # RCS 3×3：两列sHR，一列全因死亡HR，逐列明确效应名称。
 rcs=load('03_CR_ALL_AO_M5_rcs_source_data.csv',scale=None);rcs=rcs[rcs.cohort=='MIMIC-IV'];rcs.to_csv(S/'Figure3_RCS_source.csv',index=False)
@@ -132,6 +166,7 @@ fig.suptitle('Cumulative incidence and 28-day survival by index tertile',fontwei
 # Use the same dedicated entry for full builds and focused subgroup updates.
 runpy.run_path(str(C/'src/analysis/14_build_subgroup_figure.py'))
 manifest.append('FigureS10_Subgroup_forest')
+manifest.sort(key=lambda n:(1,int(n[7:9]))if n.startswith('FigureS')else(0,int(n[6])))
 pd.DataFrame({'figure':manifest,'png_exists':[(F/(n+'.png')).exists()for n in manifest],'pdf_exists':[(F/(n+'.pdf')).exists()for n in manifest]}).to_csv(F/'figure_export_manifest.csv',index=False)
 print('Created',len(manifest),'figure groups')
 
